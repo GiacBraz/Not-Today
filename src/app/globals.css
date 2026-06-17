@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
+/* Variabili di base (La nostra "tavolozza dei colori") */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0f172a; /* Un blu notte super elegante e moderno */
+  --foreground: #f8fafc; /* Testo bianco quasi puro */
+  --card-bg: #1e293b;    /* Colore delle card leggermente più chiaro dello sfondo per staccare */
+  --accent: #3b82f6;     /* Blu acceso per i badge sportivi */
+  --text-muted: #94a3b8; /* Grigio per testi meno importanti (es. la data) */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Regole globali: resettiamo i margini predefiniti dei browser */
+html,
 body {
-  background: var(--background);
+  max-width: 100vw;
+  overflow-x: hidden; /* Evita che si creino barre di scorrimento orizzontali accidentali */
+  background-color: var(--background); /* Applica il nostro blu scuro */
+  color: var(--foreground);            /* Applica il testo bianco */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* Font pulito in stile Apple */
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box; /* Regola matematica per far calcolare bene i bordi e le larghezze al browser */
+}
+
+/* --- DA QUI IN POI, GLI STILI SPECIFICI DELLA NOSTRA APP --- */
+
+/* Contenitore principale */
+main {
+  max-width: 600px; /* Non facciamo mai allargare l'app più di 600 pixel (così su PC sembrerà comunque un'app mobile verticale) */
+  margin: 0 auto;   /* Centra tutto nel mezzo dello schermo */
+  padding: 20px;    /* Spazio per far "respirare" i lati */
+}
+
+/* Il titolo grande in alto */
+h1.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  /* Creiamo un gradiente di colore super moderno (da blu a viola chiaro) per il testo */
+  background: linear-gradient(to right, #60a5fa, #c084fc);
+  -webkit-background-clip: text; /* Applica il colore al testo e non allo sfondo */
+  -webkit-text-fill-color: transparent; 
+}
+
+/* Come allineiamo le card: in colonna (una sotto l'altra) con 16 pixel di distanza */
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* --- STILI DELLA SINGOLA CARD (Quelli che abbiamo usato nel file EventCard.tsx) --- */
+.card {
+  background-color: var(--card-bg); /* Sfondo card */
+  border-radius: 16px;              /* Bordi belli arrotondati */
+  padding: 16px;                    /* Spazio interno */
+  /* Un'ombra leggerissima per staccare la card dallo sfondo */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  /* Diciamo al browser: se succede qualcosa, fai un'animazione fluida in 0.2 secondi */
+  transition: transform 0.2s ease;
+}
+
+/* Effetto Hover: Quando l'utente passa il dito (o il mouse) la card "si alza" leggermente */
+.card:hover {
+  transform: translateY(-2px); 
+}
+
+/* La parte alta della card, sport e orario vanno ai due lati estremi */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* La pillola colorata con la scritta F1, Calcio ecc. */
+.sport-badge {
+  background-color: var(--accent);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* L'orario */
+.time {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fbbf24; /* Giallo acceso. Aiuta immensamente la lettura veloce */
+}
+
+/* Testi interni */
+.competition-inline {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.card-body .event-name-main {
+  margin: 0;
+  font-size: 1.1rem;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+/* Riga in basso: separata dal resto da una linea leggerissima */
+.card-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between; /* Spinge data e tv ai due lati opposti */
+  font-size: 0.85rem;
+  color: var(--text-muted);
 }

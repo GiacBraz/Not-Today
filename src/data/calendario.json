@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "f1_australian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Australian - Melbourne",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-03-06T01:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_australian-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Australian - Melbourne",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-03-06T05:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_australian-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Australian - Melbourne",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-03-07T01:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_australian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Australian - Melbourne",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-03-07T05:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_australian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Australian - Melbourne",
+    "eventName": "Gara",
+    "dateTime": "2026-03-08T04:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_chinese-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Chinese - Shanghai",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-03-13T03:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_chinese-grand-prix_sprintQualifying",
+    "sport": "F1",
+    "competition": "GP Chinese - Shanghai",
+    "eventName": "Qualifiche Sprint",
+    "dateTime": "2026-03-13T07:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_chinese-grand-prix_sprint",
+    "sport": "F1",
+    "competition": "GP Chinese - Shanghai",
+    "eventName": "Sprint Race",
+    "dateTime": "2026-03-14T03:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_chinese-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Chinese - Shanghai",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-03-14T07:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_chinese-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Chinese - Shanghai",
+    "eventName": "Gara",
+    "dateTime": "2026-03-15T07:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_japanese-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Japanese - Suzuka",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-03-27T02:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_japanese-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Japanese - Suzuka",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-03-27T06:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_japanese-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Japanese - Suzuka",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-03-28T02:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_japanese-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Japanese - Suzuka",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-03-28T06:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_japanese-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Japanese - Suzuka",
+    "eventName": "Gara",
+    "dateTime": "2026-03-29T05:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_miami-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Miami - Miami",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-05-01T16:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_miami-grand-prix_sprintQualifying",
+    "sport": "F1",
+    "competition": "GP Miami - Miami",
+    "eventName": "Qualifiche Sprint",
+    "dateTime": "2026-05-01T20:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_miami-grand-prix_sprint",
+    "sport": "F1",
+    "competition": "GP Miami - Miami",
+    "eventName": "Sprint Race",
+    "dateTime": "2026-05-02T16:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_miami-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Miami - Miami",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-05-02T20:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_miami-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Miami - Miami",
+    "eventName": "Gara",
+    "dateTime": "2026-05-03T17:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_canadian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Canadian - Montreal",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-05-22T16:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_canadian-grand-prix_sprintQualifying",
+    "sport": "F1",
+    "competition": "GP Canadian - Montreal",
+    "eventName": "Qualifiche Sprint",
+    "dateTime": "2026-05-22T20:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_canadian-grand-prix_sprint",
+    "sport": "F1",
+    "competition": "GP Canadian - Montreal",
+    "eventName": "Sprint Race",
+    "dateTime": "2026-05-23T16:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_canadian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Canadian - Montreal",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-05-23T20:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_canadian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Canadian - Montreal",
+    "eventName": "Gara",
+    "dateTime": "2026-05-24T20:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_monaco-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Monaco - Monte Carlo",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-06-05T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_monaco-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Monaco - Monte Carlo",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-06-05T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_monaco-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Monaco - Monte Carlo",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-06-06T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_monaco-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Monaco - Monte Carlo",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-06-06T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_monaco-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Monaco - Monte Carlo",
+    "eventName": "Gara",
+    "dateTime": "2026-06-07T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_barcelona-catalunya-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Barcelona-Catalunya - Barcelona",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-06-12T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_barcelona-catalunya-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Barcelona-Catalunya - Barcelona",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-06-12T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_barcelona-catalunya-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Barcelona-Catalunya - Barcelona",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-06-13T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_barcelona-catalunya-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Barcelona-Catalunya - Barcelona",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-06-13T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_barcelona-catalunya-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Barcelona-Catalunya - Barcelona",
+    "eventName": "Gara",
+    "dateTime": "2026-06-14T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_austrian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Austrian - Spielberg",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-06-26T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_austrian-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Austrian - Spielberg",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-06-26T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_austrian-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Austrian - Spielberg",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-06-27T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_austrian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Austrian - Spielberg",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-06-27T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_austrian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Austrian - Spielberg",
+    "eventName": "Gara",
+    "dateTime": "2026-06-28T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_british-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP British - Silverstone",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-07-03T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_british-grand-prix_sprintQualifying",
+    "sport": "F1",
+    "competition": "GP British - Silverstone",
+    "eventName": "Qualifiche Sprint",
+    "dateTime": "2026-07-03T15:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_british-grand-prix_sprint",
+    "sport": "F1",
+    "competition": "GP British - Silverstone",
+    "eventName": "Sprint Race",
+    "dateTime": "2026-07-04T11:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_british-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP British - Silverstone",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-07-04T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_british-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP British - Silverstone",
+    "eventName": "Gara",
+    "dateTime": "2026-07-05T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_belgian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Belgian - Spa-Francorchamps",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-07-17T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_belgian-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Belgian - Spa-Francorchamps",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-07-17T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_belgian-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Belgian - Spa-Francorchamps",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-07-18T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_belgian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Belgian - Spa-Francorchamps",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-07-18T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_belgian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Belgian - Spa-Francorchamps",
+    "eventName": "Gara",
+    "dateTime": "2026-07-19T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_hungarian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Hungarian - Budapest",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-07-24T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_hungarian-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Hungarian - Budapest",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-07-24T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_hungarian-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Hungarian - Budapest",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-07-25T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_hungarian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Hungarian - Budapest",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-07-25T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_hungarian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Hungarian - Budapest",
+    "eventName": "Gara",
+    "dateTime": "2026-07-26T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_dutch-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Dutch - Zandvoort",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-08-21T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_dutch-grand-prix_sprintQualifying",
+    "sport": "F1",
+    "competition": "GP Dutch - Zandvoort",
+    "eventName": "Qualifiche Sprint",
+    "dateTime": "2026-08-21T14:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_dutch-grand-prix_sprint",
+    "sport": "F1",
+    "competition": "GP Dutch - Zandvoort",
+    "eventName": "Sprint Race",
+    "dateTime": "2026-08-22T10:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_dutch-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Dutch - Zandvoort",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-08-22T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_dutch-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Dutch - Zandvoort",
+    "eventName": "Gara",
+    "dateTime": "2026-08-23T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_italian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Italian - Monza",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-09-04T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_italian-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Italian - Monza",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-09-04T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_italian-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Italian - Monza",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-09-05T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_italian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Italian - Monza",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-09-05T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_italian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Italian - Monza",
+    "eventName": "Gara",
+    "dateTime": "2026-09-06T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_spanish-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Spanish - Madrid",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-09-11T11:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_spanish-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Spanish - Madrid",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-09-11T15:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_spanish-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Spanish - Madrid",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-09-12T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_spanish-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Spanish - Madrid",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-09-12T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_spanish-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Spanish - Madrid",
+    "eventName": "Gara",
+    "dateTime": "2026-09-13T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_azerbaijan-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Azerbaijan - Baku",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-09-24T08:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_azerbaijan-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Azerbaijan - Baku",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-09-24T12:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_azerbaijan-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Azerbaijan - Baku",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-09-25T08:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_azerbaijan-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Azerbaijan - Baku",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-09-25T12:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_azerbaijan-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Azerbaijan - Baku",
+    "eventName": "Gara",
+    "dateTime": "2026-09-26T11:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_singapore-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Singapore - Singapore",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-10-09T08:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_singapore-grand-prix_sprintQualifying",
+    "sport": "F1",
+    "competition": "GP Singapore - Singapore",
+    "eventName": "Qualifiche Sprint",
+    "dateTime": "2026-10-09T12:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_singapore-grand-prix_sprint",
+    "sport": "F1",
+    "competition": "GP Singapore - Singapore",
+    "eventName": "Sprint Race",
+    "dateTime": "2026-10-10T09:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_singapore-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Singapore - Singapore",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-10-10T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_singapore-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Singapore - Singapore",
+    "eventName": "Gara",
+    "dateTime": "2026-10-11T12:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_us-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP United States - Austin",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-10-23T17:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_us-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP United States - Austin",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-10-23T21:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_us-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP United States - Austin",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-10-24T17:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_us-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP United States - Austin",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-10-24T21:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_us-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP United States - Austin",
+    "eventName": "Gara",
+    "dateTime": "2026-10-25T20:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_mexican-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Mexican - Mexico City",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-10-30T18:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_mexican-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Mexican - Mexico City",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-10-30T22:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_mexican-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Mexican - Mexico City",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-10-31T17:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_mexican-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Mexican - Mexico City",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-10-31T21:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_mexican-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Mexican - Mexico City",
+    "eventName": "Gara",
+    "dateTime": "2026-11-01T20:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_brazilian-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Brazilian - Sao Paulo",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-11-06T15:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_brazilian-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Brazilian - Sao Paulo",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-11-06T19:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_brazilian-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Brazilian - Sao Paulo",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-11-07T14:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_brazilian-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Brazilian - Sao Paulo",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-11-07T18:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_brazilian-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Brazilian - Sao Paulo",
+    "eventName": "Gara",
+    "dateTime": "2026-11-08T17:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_las-vegas-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Las Vegas - Las Vegas",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-11-20T00:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_las-vegas-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Las Vegas - Las Vegas",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-11-20T04:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_las-vegas-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Las Vegas - Las Vegas",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-11-21T00:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_las-vegas-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Las Vegas - Las Vegas",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-11-21T04:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_las-vegas-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Las Vegas - Las Vegas",
+    "eventName": "Gara",
+    "dateTime": "2026-11-22T04:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_qatar-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Qatar - Doha",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-11-27T13:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_qatar-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Qatar - Doha",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-11-27T17:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_qatar-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Qatar - Doha",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-11-28T14:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_qatar-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Qatar - Doha",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-11-28T18:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_qatar-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Qatar - Doha",
+    "eventName": "Gara",
+    "dateTime": "2026-11-29T16:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_abu-dhabi-grand-prix_fp1",
+    "sport": "F1",
+    "competition": "GP Abu Dhabi - Yas Marina",
+    "eventName": "Prove Libere 1",
+    "dateTime": "2026-12-04T09:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_abu-dhabi-grand-prix_fp2",
+    "sport": "F1",
+    "competition": "GP Abu Dhabi - Yas Marina",
+    "eventName": "Prove Libere 2",
+    "dateTime": "2026-12-04T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_abu-dhabi-grand-prix_fp3",
+    "sport": "F1",
+    "competition": "GP Abu Dhabi - Yas Marina",
+    "eventName": "Prove Libere 3",
+    "dateTime": "2026-12-05T10:30:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_abu-dhabi-grand-prix_qualifying",
+    "sport": "F1",
+    "competition": "GP Abu Dhabi - Yas Marina",
+    "eventName": "Qualifiche",
+    "dateTime": "2026-12-05T14:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "f1_abu-dhabi-grand-prix_gp",
+    "sport": "F1",
+    "competition": "GP Abu Dhabi - Yas Marina",
+    "eventName": "Gara",
+    "dateTime": "2026-12-06T13:00:00Z",
+    "broadcaster": "Sky Sport F1"
+  },
+  {
+    "id": "atp_aust_20260112",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-12T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260113",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-13T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260114",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-14T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260115",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-15T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260116",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-16T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260117",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-17T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260118",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-18T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260119",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-19T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260120",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-20T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260121",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-21T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260122",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-22T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260123",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-23T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260124",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-24T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260125",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open (Sinner in tabellone)",
+    "dateTime": "2026-01-25T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_indi_20260304",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-04T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260305",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-05T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260306",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-06T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260307",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-07T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260308",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-08T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260309",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-09T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260310",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-10T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260311",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-11T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260312",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-12T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260313",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-13T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260314",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-14T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260315",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters (Sinner in tabellone)",
+    "dateTime": "2026-03-15T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260318",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-18T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260319",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-19T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260320",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-20T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260321",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-21T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260322",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-22T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260323",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-23T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260324",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-24T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260325",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-25T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260326",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-26T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260327",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-27T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260328",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-28T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260329",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open (Sinner in tabellone)",
+    "dateTime": "2026-03-29T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260405",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-05T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260406",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-06T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260407",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-07T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260408",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-08T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260409",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-09T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260410",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-10T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260411",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-11T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260412",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
+    "dateTime": "2026-04-12T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260422",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-22T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260423",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-23T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260424",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-24T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260425",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-25T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260426",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-26T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260427",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-27T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260428",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-28T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260429",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-29T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260430",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-04-30T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260501",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-05-01T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260502",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-05-02T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260503",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open (Sinner in tabellone)",
+    "dateTime": "2026-05-03T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260506",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-06T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260507",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-07T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260508",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-08T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260509",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-09T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260510",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-10T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260511",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-11T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260512",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-12T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260513",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-13T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260514",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-14T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260515",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-15T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260516",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-16T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260517",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
+    "dateTime": "2026-05-17T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_rola_20260524",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-24T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260525",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-25T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260526",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-26T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260527",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-27T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260528",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-28T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260529",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-29T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260530",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-30T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260531",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-05-31T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260601",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-01T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260602",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-02T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260603",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-03T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260604",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-04T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260605",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-05T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260606",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-06T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260607",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros (Sinner in tabellone)",
+    "dateTime": "2026-06-07T11:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_wimb_20260629",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-06-29T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260630",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-06-30T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260701",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-01T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260702",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-02T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260703",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-03T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260704",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-04T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260705",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-05T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260706",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-06T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260707",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-07T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260708",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-08T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260709",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-09T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260710",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-10T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260711",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-11T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260712",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon (Sinner in tabellone)",
+    "dateTime": "2026-07-12T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260803",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-03T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260804",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-04T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260805",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-05T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260806",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-06T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260807",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-07T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260808",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-08T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260809",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open (Sinner in tabellone)",
+    "dateTime": "2026-08-09T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260810",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-10T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260811",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-11T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260812",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-12T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260813",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-13T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260814",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-14T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260815",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-15T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260816",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters (Sinner in tabellone)",
+    "dateTime": "2026-08-16T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_us o_20260831",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-08-31T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260901",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-01T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260902",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-02T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260903",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-03T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260904",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-04T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260905",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-05T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260906",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-06T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260907",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-07T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260908",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-08T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260909",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-09T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260910",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-10T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260911",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-11T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260912",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-12T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260913",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open (Sinner in tabellone)",
+    "dateTime": "2026-09-13T11:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_shan_20261007",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-07T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261008",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-08T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261009",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-09T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261010",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-10T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261011",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-11T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261012",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-12T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261013",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-13T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261014",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-14T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261015",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-15T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261016",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-16T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261017",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-17T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261018",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-18T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261026",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-26T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261027",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-27T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261028",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-28T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261029",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-29T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261030",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-30T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261031",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-10-31T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261101",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters (Sinner in tabellone)",
+    "dateTime": "2026-11-01T11:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_atp _20261115",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-15T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261116",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-16T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261117",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-17T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261118",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-18T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261119",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-19T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261120",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-20T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261121",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-21T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261122",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
+    "dateTime": "2026-11-22T11:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "wc26_2026-06-11_mexico_south_africa",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Mexico vs South Africa (Matchday 1)",
+    "dateTime": "2026-06-11T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-11_south_korea_czech_republic",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "South Korea vs Czech Republic (Matchday 1)",
+    "dateTime": "2026-06-12T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-18_czech_republic_south_africa",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Czech Republic vs South Africa (Matchday 8)",
+    "dateTime": "2026-06-18T18:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-18_mexico_south_korea",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Mexico vs South Korea (Matchday 8)",
+    "dateTime": "2026-06-19T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-24_czech_republic_mexico",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Czech Republic vs Mexico (Matchday 14)",
+    "dateTime": "2026-06-25T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-24_south_africa_south_korea",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "South Africa vs South Korea (Matchday 14)",
+    "dateTime": "2026-06-25T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-12_canada_bosnia_&_herzegovina",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Canada vs Bosnia & Herzegovina (Matchday 2)",
+    "dateTime": "2026-06-12T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-13_qatar_switzerland",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Qatar vs Switzerland (Matchday 3)",
+    "dateTime": "2026-06-13T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-18_switzerland_bosnia_&_herzegovina",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Switzerland vs Bosnia & Herzegovina (Matchday 8)",
+    "dateTime": "2026-06-18T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-18_canada_qatar",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Canada vs Qatar (Matchday 8)",
+    "dateTime": "2026-06-19T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-24_switzerland_canada",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Switzerland vs Canada (Matchday 14)",
+    "dateTime": "2026-06-24T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-24_bosnia_&_herzegovina_qatar",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Bosnia & Herzegovina vs Qatar (Matchday 14)",
+    "dateTime": "2026-06-24T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-13_brazil_morocco",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Brazil vs Morocco (Matchday 3)",
+    "dateTime": "2026-06-14T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-13_haiti_scotland",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Haiti vs Scotland (Matchday 3)",
+    "dateTime": "2026-06-14T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-19_scotland_morocco",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Scotland vs Morocco (Matchday 9)",
+    "dateTime": "2026-06-20T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-19_brazil_haiti",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Brazil vs Haiti (Matchday 9)",
+    "dateTime": "2026-06-20T02:30:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-24_scotland_brazil",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Scotland vs Brazil (Matchday 14)",
+    "dateTime": "2026-06-25T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-24_morocco_haiti",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Morocco vs Haiti (Matchday 14)",
+    "dateTime": "2026-06-25T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-12_usa_paraguay",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "USA vs Paraguay (Matchday 2)",
+    "dateTime": "2026-06-13T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-13_australia_turkey",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Australia vs Turkey (Matchday 3)",
+    "dateTime": "2026-06-14T06:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-19_usa_australia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "USA vs Australia (Matchday 9)",
+    "dateTime": "2026-06-19T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-19_turkey_paraguay",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Turkey vs Paraguay (Matchday 9)",
+    "dateTime": "2026-06-20T05:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-25_turkey_usa",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Turkey vs USA (Matchday 15)",
+    "dateTime": "2026-06-26T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-25_paraguay_australia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Paraguay vs Australia (Matchday 15)",
+    "dateTime": "2026-06-26T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-14_germany_curaçao",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Germany vs Curaçao (Matchday 4)",
+    "dateTime": "2026-06-14T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-14_ivory_coast_ecuador",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Ivory Coast vs Ecuador (Matchday 4)",
+    "dateTime": "2026-06-15T01:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-20_germany_ivory_coast",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Germany vs Ivory Coast (Matchday 10)",
+    "dateTime": "2026-06-20T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-20_ecuador_curaçao",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Ecuador vs Curaçao (Matchday 10)",
+    "dateTime": "2026-06-21T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-25_curaçao_ivory_coast",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Curaçao vs Ivory Coast (Matchday 15)",
+    "dateTime": "2026-06-25T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-25_ecuador_germany",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Ecuador vs Germany (Matchday 15)",
+    "dateTime": "2026-06-25T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-14_netherlands_japan",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Netherlands vs Japan (Matchday 4)",
+    "dateTime": "2026-06-14T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-14_sweden_tunisia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Sweden vs Tunisia (Matchday 4)",
+    "dateTime": "2026-06-15T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-20_netherlands_sweden",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Netherlands vs Sweden (Matchday 10)",
+    "dateTime": "2026-06-20T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-20_tunisia_japan",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Tunisia vs Japan (Matchday 10)",
+    "dateTime": "2026-06-21T06:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-25_japan_sweden",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Japan vs Sweden (Matchday 15)",
+    "dateTime": "2026-06-26T01:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-25_tunisia_netherlands",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Tunisia vs Netherlands (Matchday 15)",
+    "dateTime": "2026-06-26T01:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-15_belgium_egypt",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Belgium vs Egypt (Matchday 5)",
+    "dateTime": "2026-06-15T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-15_iran_new_zealand",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Iran vs New Zealand (Matchday 5)",
+    "dateTime": "2026-06-16T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-21_belgium_iran",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Belgium vs Iran (Matchday 11)",
+    "dateTime": "2026-06-21T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-21_new_zealand_egypt",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "New Zealand vs Egypt (Matchday 11)",
+    "dateTime": "2026-06-22T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-26_egypt_iran",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Egypt vs Iran (Matchday 16)",
+    "dateTime": "2026-06-27T05:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-26_new_zealand_belgium",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "New Zealand vs Belgium (Matchday 16)",
+    "dateTime": "2026-06-27T05:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-15_spain_cape_verde",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Spain vs Cape Verde (Matchday 5)",
+    "dateTime": "2026-06-15T18:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-15_saudi_arabia_uruguay",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Saudi Arabia vs Uruguay (Matchday 5)",
+    "dateTime": "2026-06-16T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-21_spain_saudi_arabia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Spain vs Saudi Arabia (Matchday 11)",
+    "dateTime": "2026-06-21T18:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-21_uruguay_cape_verde",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Uruguay vs Cape Verde (Matchday 11)",
+    "dateTime": "2026-06-22T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-26_cape_verde_saudi_arabia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Cape Verde vs Saudi Arabia (Matchday 16)",
+    "dateTime": "2026-06-27T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-26_uruguay_spain",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Uruguay vs Spain (Matchday 16)",
+    "dateTime": "2026-06-27T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-16_france_senegal",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "France vs Senegal (Matchday 6)",
+    "dateTime": "2026-06-16T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-16_iraq_norway",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Iraq vs Norway (Matchday 6)",
+    "dateTime": "2026-06-17T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-22_france_iraq",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "France vs Iraq (Matchday 12)",
+    "dateTime": "2026-06-22T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-22_norway_senegal",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Norway vs Senegal (Matchday 12)",
+    "dateTime": "2026-06-23T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-26_norway_france",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Norway vs France (Matchday 16)",
+    "dateTime": "2026-06-26T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-26_senegal_iraq",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Senegal vs Iraq (Matchday 16)",
+    "dateTime": "2026-06-26T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-16_argentina_algeria",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Argentina vs Algeria (Matchday 6)",
+    "dateTime": "2026-06-17T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-16_austria_jordan",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Austria vs Jordan (Matchday 6)",
+    "dateTime": "2026-06-17T06:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-22_argentina_austria",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Argentina vs Austria (Matchday 12)",
+    "dateTime": "2026-06-22T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-22_jordan_algeria",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Jordan vs Algeria (Matchday 12)",
+    "dateTime": "2026-06-23T05:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-27_algeria_austria",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Algeria vs Austria (Matchday 17)",
+    "dateTime": "2026-06-28T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-27_jordan_argentina",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Jordan vs Argentina (Matchday 17)",
+    "dateTime": "2026-06-28T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-17_portugal_dr_congo",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Portugal vs DR Congo (Matchday 7)",
+    "dateTime": "2026-06-17T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-17_uzbekistan_colombia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Uzbekistan vs Colombia (Matchday 7)",
+    "dateTime": "2026-06-18T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-23_portugal_uzbekistan",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Portugal vs Uzbekistan (Matchday 13)",
+    "dateTime": "2026-06-23T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-23_colombia_dr_congo",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Colombia vs DR Congo (Matchday 13)",
+    "dateTime": "2026-06-24T04:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-27_colombia_portugal",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Colombia vs Portugal (Matchday 17)",
+    "dateTime": "2026-06-28T01:30:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-27_dr_congo_uzbekistan",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "DR Congo vs Uzbekistan (Matchday 17)",
+    "dateTime": "2026-06-28T01:30:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-17_england_croatia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "England vs Croatia (Matchday 7)",
+    "dateTime": "2026-06-17T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-17_ghana_panama",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Ghana vs Panama (Matchday 7)",
+    "dateTime": "2026-06-18T01:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-23_england_ghana",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "England vs Ghana (Matchday 13)",
+    "dateTime": "2026-06-23T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-23_panama_croatia",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Panama vs Croatia (Matchday 13)",
+    "dateTime": "2026-06-24T01:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-27_panama_england",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Panama vs England (Matchday 17)",
+    "dateTime": "2026-06-27T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-27_croatia_ghana",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "Croatia vs Ghana (Matchday 17)",
+    "dateTime": "2026-06-27T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-28_2a_2b",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "2A vs 2B (Round of 32)",
+    "dateTime": "2026-06-28T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-29_1e_3a/b/c/d/f",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1E vs 3A/B/C/D/F (Round of 32)",
+    "dateTime": "2026-06-29T22:30:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-29_1f_2c",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1F vs 2C (Round of 32)",
+    "dateTime": "2026-06-30T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-29_1c_2f",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1C vs 2F (Round of 32)",
+    "dateTime": "2026-06-29T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-30_1i_3c/d/f/g/h",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1I vs 3C/D/F/G/H (Round of 32)",
+    "dateTime": "2026-06-30T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-30_2e_2i",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "2E vs 2I (Round of 32)",
+    "dateTime": "2026-06-30T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-06-30_1a_3c/e/f/h/i",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1A vs 3C/E/F/H/I (Round of 32)",
+    "dateTime": "2026-07-01T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-01_1l_3e/h/i/j/k",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1L vs 3E/H/I/J/K (Round of 32)",
+    "dateTime": "2026-07-01T18:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-01_1d_3b/e/f/i/j",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1D vs 3B/E/F/I/J (Round of 32)",
+    "dateTime": "2026-07-02T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-01_1g_3a/e/h/i/j",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1G vs 3A/E/H/I/J (Round of 32)",
+    "dateTime": "2026-07-01T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-02_2k_2l",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "2K vs 2L (Round of 32)",
+    "dateTime": "2026-07-03T01:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-02_1h_2j",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1H vs 2J (Round of 32)",
+    "dateTime": "2026-07-02T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-02_1b_3e/f/g/i/j",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1B vs 3E/F/G/I/J (Round of 32)",
+    "dateTime": "2026-07-03T05:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-03_1j_2h",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1J vs 2H (Round of 32)",
+    "dateTime": "2026-07-04T00:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-03_1k_3d/e/i/j/l",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "1K vs 3D/E/I/J/L (Round of 32)",
+    "dateTime": "2026-07-04T03:30:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-03_2d_2g",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "2D vs 2G (Round of 32)",
+    "dateTime": "2026-07-03T20:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-04_w74_w77",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W74 vs W77 (Round of 16)",
+    "dateTime": "2026-07-04T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-04_w73_w75",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W73 vs W75 (Round of 16)",
+    "dateTime": "2026-07-04T19:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-05_w76_w78",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W76 vs W78 (Round of 16)",
+    "dateTime": "2026-07-05T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-05_w79_w80",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W79 vs W80 (Round of 16)",
+    "dateTime": "2026-07-06T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-06_w83_w84",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W83 vs W84 (Round of 16)",
+    "dateTime": "2026-07-06T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-06_w81_w82",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W81 vs W82 (Round of 16)",
+    "dateTime": "2026-07-07T02:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-07_w86_w88",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W86 vs W88 (Round of 16)",
+    "dateTime": "2026-07-07T18:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-07_w85_w87",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W85 vs W87 (Round of 16)",
+    "dateTime": "2026-07-07T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-09_w89_w90",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W89 vs W90 (Quarter-final)",
+    "dateTime": "2026-07-09T22:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-10_w93_w94",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W93 vs W94 (Quarter-final)",
+    "dateTime": "2026-07-10T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-11_w91_w92",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W91 vs W92 (Quarter-final)",
+    "dateTime": "2026-07-11T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-11_w95_w96",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W95 vs W96 (Quarter-final)",
+    "dateTime": "2026-07-12T03:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-14_w97_w98",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W97 vs W98 (Semi-final)",
+    "dateTime": "2026-07-14T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-15_w99_w100",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W99 vs W100 (Semi-final)",
+    "dateTime": "2026-07-15T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-18_l101_l102",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "L101 vs L102 (Match for third place)",
+    "dateTime": "2026-07-18T23:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "wc26_2026-07-19_w101_w102",
+    "sport": "Calcio",
+    "competition": "Mondiali 2026",
+    "eventName": "W101 vs W102 (Final)",
+    "dateTime": "2026-07-19T21:00:00+02:00",
+    "broadcaster": "Rai / Sky"
+  },
+  {
+    "id": "seriea_20261018_inter_6614187353644371777",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Bologna-Inter",
+    "dateTime": "2026-10-18T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261129_inter_9169677335114872124",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Genoa",
+    "dateTime": "2026-11-29T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20260823_inter_8921798962691150617",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Monza",
+    "dateTime": "2026-08-23T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20260830_inter_13789605703368180",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Cagliari-Inter",
+    "dateTime": "2026-08-30T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261206_inter_6296116568799462244",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Frosinone-Inter",
+    "dateTime": "2026-12-06T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261025_inter_3304286742607750133",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Fiorentina",
+    "dateTime": "2026-10-25T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261213_inter_52038948148915323",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Torino",
+    "dateTime": "2026-12-13T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20260906_inter_1477326634555509346",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Napoli",
+    "dateTime": "2026-09-06T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261028_inter_5289150535667739587",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Venezia-Inter",
+    "dateTime": "2026-10-28T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20260913_inter_480994132114836376",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Udinese",
+    "dateTime": "2026-09-13T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261220_inter_2436894374762601697",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Lecce-Inter",
+    "dateTime": "2026-12-20T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261101_inter_5868302604825260938",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Milan-Inter",
+    "dateTime": "2026-11-01T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261108_inter_2073122229787777504",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Como",
+    "dateTime": "2026-11-08T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270103_inter_788815506342605499",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Sassuolo",
+    "dateTime": "2027-01-03T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20260920_inter_1965304185508563982",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Roma-Inter",
+    "dateTime": "2026-09-20T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261122_inter_2783044252305682855",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Atalanta-Inter",
+    "dateTime": "2026-11-22T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20261011_inter_1616669995100911379",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Parma",
+    "dateTime": "2026-10-11T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270106_inter_9106256401664333931",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Lazio-Inter",
+    "dateTime": "2027-01-06T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270110_inter_7299110092674999995",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Juventus",
+    "dateTime": "2027-01-10T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270228_inter_2955476399865109758",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Atalanta",
+    "dateTime": "2027-02-28T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270418_inter_8764179352354156512",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Monza-Inter",
+    "dateTime": "2027-04-18T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270111_inter_2876896636366786444",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Parma-Inter",
+    "dateTime": "2027-01-11T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270425_inter_3426549118354691910",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Bologna",
+    "dateTime": "2027-04-25T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270124_inter_2371741954094656219",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Venezia",
+    "dateTime": "2027-01-24T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270307_inter_5959050359373947494",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Udinese-Inter",
+    "dateTime": "2027-03-07T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270502_inter_5247413221513459676",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Como-Inter",
+    "dateTime": "2027-05-02T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270131_inter_7642919308050533889",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Napoli-Inter",
+    "dateTime": "2027-01-31T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270314_inter_2388775124273844098",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Torino-Inter",
+    "dateTime": "2027-03-14T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270321_inter_8671936496357391284",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Frosinone",
+    "dateTime": "2027-03-21T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270509_inter_3400818512842825590",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Lecce",
+    "dateTime": "2027-05-09T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270207_inter_5182682372039596814",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Cagliari",
+    "dateTime": "2027-02-07T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270404_inter_2608022782431765145",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Genoa-Inter",
+    "dateTime": "2027-04-04T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270516_inter_6000665378090003896",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Juventus-Inter",
+    "dateTime": "2027-05-16T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270214_inter_4823102348539343228",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Milan",
+    "dateTime": "2027-02-14T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270221_inter_7695883901004231335",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Fiorentina-Inter",
+    "dateTime": "2027-02-21T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270411_inter_6650651894205795217",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Roma",
+    "dateTime": "2027-04-11T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270523_inter_8231899250230331154",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Inter-Lazio",
+    "dateTime": "2027-05-23T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "seriea_20270530_inter_7388215169428042734",
+    "sport": "Calcio",
+    "competition": "Serie A 26/27",
+    "eventName": "Sassuolo-Inter",
+    "dateTime": "2027-05-30T15:00:00+02:00",
+    "broadcaster": "DAZN / Sky"
+  },
+  {
+    "id": "motogp_7017474183647940705",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #ThaiGP",
+    "dateTime": "2026-02-28T10:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7712313865431352937",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #ThaiGP",
+    "dateTime": "2026-03-01T10:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_4362884877104530733",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #BrasilGP",
+    "dateTime": "2026-03-21T21:20:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_3425064209827468113",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #BrasilGP",
+    "dateTime": "2026-03-22T20:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_2700752836627496872",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #AmericasGP",
+    "dateTime": "2026-03-28T22:10:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6917932016262262819",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #AmericasGP",
+    "dateTime": "2026-03-29T22:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_2479594321342081346",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #SpanishGP",
+    "dateTime": "2026-04-25T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_5930792578397177929",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #SpanishGP",
+    "dateTime": "2026-04-26T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_8935171035990360515",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #FrenchGP",
+    "dateTime": "2026-05-09T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_9205086937844660098",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #FrenchGP",
+    "dateTime": "2026-05-10T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_5579684251560971948",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #CatalanGP",
+    "dateTime": "2026-05-16T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_8345197739783160876",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC2 #CatalanGP",
+    "dateTime": "2026-05-17T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_3517523243667189711",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #ItalianGP",
+    "dateTime": "2026-05-30T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_3517823914091850948",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #ItalianGP",
+    "dateTime": "2026-05-31T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6951260377692249048",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #HungarianGP",
+    "dateTime": "2026-06-06T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_993319404440787745",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #HungarianGP",
+    "dateTime": "2026-06-07T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_676049405310210040",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #CzechGP",
+    "dateTime": "2026-06-20T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_3681390827238001769",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #CzechGP",
+    "dateTime": "2026-06-21T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7155674509292959376",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #DutchGP",
+    "dateTime": "2026-06-27T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_1412283047701182752",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #DutchGP",
+    "dateTime": "2026-06-28T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_460090865577058297",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #GermanGP",
+    "dateTime": "2026-07-11T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6892187571172493168",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #GermanGP",
+    "dateTime": "2026-07-12T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_4319796686378276119",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #BritishGP",
+    "dateTime": "2026-08-08T17:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7584031917130215005",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #BritishGP",
+    "dateTime": "2026-08-09T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_443575189628679240",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #AragonGP",
+    "dateTime": "2026-08-29T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_774503904696640406",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #AragonGP",
+    "dateTime": "2026-08-30T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_4171923414209671666",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #SanMarinoGP",
+    "dateTime": "2026-09-12T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_5198000589132199114",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #SanMarinoGP",
+    "dateTime": "2026-09-13T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6288115405649345635",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #AustrianGP",
+    "dateTime": "2026-09-19T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_1095225967383038178",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #AustrianGP",
+    "dateTime": "2026-09-20T14:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_8877700308525296644",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #JapaneseGP",
+    "dateTime": "2026-10-03T08:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_4975177438491034208",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #JapaneseGP",
+    "dateTime": "2026-10-04T07:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6533684996844309514",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #IndonesianGP",
+    "dateTime": "2026-10-10T09:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6554683083826991",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #IndonesianGP",
+    "dateTime": "2026-10-11T08:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_6253113959357625130",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #AustralianGP",
+    "dateTime": "2026-10-24T06:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7989258927529075897",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #AustralianGP",
+    "dateTime": "2026-10-25T05:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_2955580413726483243",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #MalaysianGP",
+    "dateTime": "2026-10-31T09:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7427550087058723072",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #MalaysianGP",
+    "dateTime": "2026-11-01T09:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_4858770681047501389",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #QatarGP",
+    "dateTime": "2026-11-07T19:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_8376016969593941097",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #QatarGP",
+    "dateTime": "2026-11-08T19:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7929333599513223555",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #PortugueseGP",
+    "dateTime": "2026-11-21T17:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_8465908410226783761",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #PortugueseGP",
+    "dateTime": "2026-11-22T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_1848515253646971960",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] SPR #ValenciaGP",
+    "dateTime": "2026-11-28T16:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "motogp_7410482047973876079",
+    "sport": "MotoGP",
+    "competition": "MotoGP 2026",
+    "eventName": "[MotoGP] RAC #ValenciaGP",
+    "dateTime": "2026-11-29T15:00:00+02:00",
+    "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  }
+]
