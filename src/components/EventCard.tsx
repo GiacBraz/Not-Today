@@ -26,13 +26,23 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
   // Estraiamo solo il giorno e mese (es. "06 settembre")
   const dateString = dateObj.toLocaleDateString('it-IT', { day: '2-digit', month: 'long' });
 
-  // Determina il colore del badge in base allo sport
+  // Determina il colore del badge e l'emoji in base allo sport
   let badgeColor = "var(--accent)"; // Default (Blu)
+  let emoji = "🏆";
   const s = sport.toLowerCase();
-  if (s.includes("f1") || s.includes("formula")) badgeColor = "#ef4444"; // Rosso
-  else if (s.includes("moto")) badgeColor = "#eab308"; // Giallo
-  else if (s.includes("calcio") || s.includes("serie") || s.includes("mondiali")) badgeColor = "#f97316"; // Arancio
-  else if (s.includes("tennis")) badgeColor = "#22c55e"; // Verde
+  if (s.includes("f1") || s.includes("formula")) {
+    badgeColor = "#ef4444"; // Rosso
+    emoji = "🏎️";
+  } else if (s.includes("moto")) {
+    badgeColor = "#eab308"; // Giallo
+    emoji = "🏍️";
+  } else if (s.includes("calcio") || s.includes("serie") || s.includes("mondiali")) {
+    badgeColor = "#f97316"; // Arancio
+    emoji = "⚽";
+  } else if (s.includes("tennis")) {
+    badgeColor = "#22c55e"; // Verde
+    emoji = "🎾";
+  }
 
   // Qui sotto usiamo "className" per collegare i pezzetti di codice allo stile CSS che scriveremo dopo
   return (
@@ -40,7 +50,9 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
       <div className="card-header">
         {/* Il Badge colorato per lo sport e accanto il nome della competizione */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <span className="sport-badge" style={{ backgroundColor: badgeColor }}>{sport}</span>
+          <span className="sport-badge" style={{ backgroundColor: badgeColor }}>
+            {emoji} {sport}
+          </span>
           <span className="competition-inline">{competition}</span>
         </div>
         {/* L'orario bello grande, che è la cosa più importante */}

@@ -10,21 +10,31 @@ export default function Home() {
   const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
   
   // 2. Lo Stato: la memoria che conserva il giorno cliccato dall'utente.
-  // Inizialmente vale "Oggi", ma se l'utente clicca sul calendario, questo valore cambierà automaticamente!
   const [selectedDate, setSelectedDate] = useState(todayStr);
 
-  // 2.5 FILTRO EVENTI PASSATI: eliminiamo dal JSON tutti gli eventi che sono precedenti a "Oggi"
+  // NUOVO STATO: la memoria che conserva lo sport selezionato.
+  const [selectedSport, setSelectedSport] = useState("Tutti");
+
+  // 2.5 FILTRO EVENTI PASSATI
   const futureEventsData = eventsData.filter(event => {
     const eventDate = event.dateTime.split('T')[0];
     return eventDate >= todayStr;
   });
 
-  // 3. Estraiamo dal JSON "futuro" solo le date che hanno eventi, per i "Pallini" azzurri.
-  const eventDatesWithEvents = futureEventsData.map(event => event.dateTime.split('T')[0]);
+  // Estraiamo tutti gli sport unici disponibili per popolare la tendina
+  const uniqueSports = ["Tutti", ...new Set(futureEventsData.map(e => e.sport))];
+
+  // Filtriamo gli eventi futuri anche in base allo sport selezionato
+  const sportFilteredEvents = selectedSport === "Tutti" 
+    ? futureEventsData 
+    : futureEventsData.filter(e => e.sport === selectedSport);
+
+  // 3. Estraiamo dai dati filtrati per sport solo le date che hanno eventi, per i "Pallini" azzurri.
+  const eventDatesWithEvents = sportFilteredEvents.map(event => event.dateTime.split('T')[0]);
   const uniqueEventDates = [...new Set(eventDatesWithEvents)];
 
-  // 4. IL FILTRO MAGICO: prendiamo gli eventi futuri e teniamo SOLO quelli della data selezionata.
-  const filteredEvents = futureEventsData.filter(event => {
+  // 4. IL FILTRO MAGICO: prendiamo gli eventi filtrati per sport e teniamo SOLO quelli della data selezionata.
+  const filteredEvents = sportFilteredEvents.filter(event => {
     return event.dateTime.startsWith(selectedDate);
   });
 
@@ -41,11 +51,31 @@ export default function Home() {
       <div className="max-w-xl mx-auto">
         
         {/* Titolo Principale */}
-        <header className="mb-8 text-center mt-2">
+        <header className="mb-6 text-center mt-2 flex flex-col items-center">
           <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 tracking-tight">
-            Calendario Sport
+            Not Today
           </h1>
-          <p className="text-slate-400 text-sm mt-2">Tutti gli eventi, nel palmo della tua mano</p>
+          <p className="text-slate-400 text-sm mt-2 mb-4">The ultimate sports calendar</p>
+
+          {/* Tendina Filtro Sport */}
+          <div className="relative w-full max-w-xs mx-auto">
+            <select
+              value={selectedSport}
+              onChange={(e) => setSelectedSport(e.target.value)}
+              className="w-full appearance-none bg-slate-800/80 border border-slate-700 text-slate-200 py-3 px-4 pr-8 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 font-medium cursor-pointer transition-all hover:bg-slate-700/80"
+            >
+              {uniqueSports.map((sport) => (
+                <option key={sport} value={sport}>
+                  {sport === "Tutti" ? "Tutti gli Sport" : sport}
+                </option>
+              ))}
+            </select>
+            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-400">
+              <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </div>
+          </div>
         </header>
 
         {/* IL NOSTRO NUOVO CALENDARIO INTERATTIVO */}
