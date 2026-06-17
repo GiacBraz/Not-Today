@@ -1,4 +1,4 @@
-# Sports Calendar App 🏆
+# Not Today 🏆
 
 A sleek, mobile-first web application designed to track and display a comprehensive schedule of multiple major sporting events in a single, unified view. Built with Next.js, React, and Tailwind CSS.
 
@@ -38,8 +38,8 @@ Instead, a suite of Python "bots" run locally to extract data from various sourc
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YourUsername/calendario-sport.git
-    cd calendario-sport
+    git clone https://github.com/GiacBraz/Not-Today.git
+    cd Not-Today
     ```
 2.  **Install dependencies:**
     ```bash
