@@ -32,21 +32,27 @@ def genera_eventi_tennis():
         
         delta = end_date - start_date
         
-        # Sinner potrebbe giocare in qualsiasi giorno di queste due settimane.
-        # Creiamo un evento per ogni singolo giorno, così avremo il pallino blu nel calendario.
-        for i in range(delta.days + 1):
-            current_day = start_date + timedelta(days=i)
-            # Fissiamo un orario indicativo di inizio sessione mattutina (11:00)
-            iso_date = f"{current_day.strftime('%Y-%m-%d')}T11:00:00+02:00"
-            
-            eventi.append({
-                "id": f"atp_{torneo['nome'][:4].lower()}_{current_day.strftime('%Y%m%d')}",
-                "sport": "Tennis",
-                "competition": "Circuito ATP",
-                "eventName": f"{torneo['nome']} (Sinner in tabellone)",
-                "dateTime": iso_date,
-                "broadcaster": torneo["broadcaster"]
-            })
+        # Sinner ci interessa dalle fasi finali in poi!
+        # Prendiamo solo gli ultimi 3 giorni del torneo (solitamente coprono Quarti, Semifinali e Finale)
+        giorni_finali = [
+            (end_date - timedelta(days=2), "Quarti/Semifinali"),
+            (end_date - timedelta(days=1), "Semifinale"),
+            (end_date, "Finale")
+        ]
+        
+        for current_day, fase in giorni_finali:
+            if current_day >= start_date:
+                # Fissiamo un orario indicativo pomeridiano per le fasi finali (es. 15:00)
+                iso_date = f"{current_day.strftime('%Y-%m-%d')}T15:00:00+02:00"
+                
+                eventi.append({
+                    "id": f"atp_{torneo['nome'][:4].lower()}_{current_day.strftime('%Y%m%d')}",
+                    "sport": "Tennis",
+                    "competition": "Circuito ATP",
+                    "eventName": f"{torneo['nome']} - {fase} (Sinner?)",
+                    "dateTime": iso_date,
+                    "broadcaster": torneo["broadcaster"]
+                })
             
     return eventi
 

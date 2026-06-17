@@ -880,1238 +880,6 @@
     "broadcaster": "Sky Sport F1"
   },
   {
-    "id": "atp_aust_20260112",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-12T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260113",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-13T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260114",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-14T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260115",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-15T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260116",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-16T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260117",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-17T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260118",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-18T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260119",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-19T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260120",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-20T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260121",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-21T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260122",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-22T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260123",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-23T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260124",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-24T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_aust_20260125",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Australian Open (Sinner in tabellone)",
-    "dateTime": "2026-01-25T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_indi_20260304",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-04T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260305",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-05T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260306",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-06T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260307",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-07T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260308",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-08T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260309",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-09T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260310",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-10T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260311",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-11T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260312",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-12T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260313",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-13T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260314",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-14T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_indi_20260315",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Indian Wells Masters (Sinner in tabellone)",
-    "dateTime": "2026-03-15T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260318",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-18T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260319",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-19T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260320",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-20T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260321",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-21T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260322",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-22T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260323",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-23T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260324",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-24T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260325",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-25T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260326",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-26T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260327",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-27T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260328",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-28T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_miam_20260329",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Miami Open (Sinner in tabellone)",
-    "dateTime": "2026-03-29T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260405",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-05T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260406",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-06T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260407",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-07T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260408",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-08T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260409",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-09T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260410",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-10T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260411",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-11T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_mont_20260412",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Monte-Carlo Masters (Sinner in tabellone)",
-    "dateTime": "2026-04-12T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260422",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-22T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260423",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-23T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260424",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-24T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260425",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-25T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260426",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-26T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260427",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-27T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260428",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-28T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260429",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-29T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260430",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-04-30T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260501",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-05-01T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260502",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-05-02T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_madr_20260503",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Madrid Open (Sinner in tabellone)",
-    "dateTime": "2026-05-03T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260506",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-06T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260507",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-07T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260508",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-08T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260509",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-09T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260510",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-10T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260511",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-11T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260512",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-12T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260513",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-13T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260514",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-14T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260515",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-15T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260516",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-16T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_inte_20260517",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Internazionali d'Italia (Roma) (Sinner in tabellone)",
-    "dateTime": "2026-05-17T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_rola_20260524",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-24T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260525",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-25T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260526",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-26T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260527",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-27T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260528",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-28T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260529",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-29T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260530",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-30T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260531",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-05-31T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260601",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-01T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260602",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-02T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260603",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-03T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260604",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-04T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260605",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-05T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260606",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-06T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_rola_20260607",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Roland Garros (Sinner in tabellone)",
-    "dateTime": "2026-06-07T11:00:00+02:00",
-    "broadcaster": "Eurosport / Discovery+"
-  },
-  {
-    "id": "atp_wimb_20260629",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-06-29T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260630",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-06-30T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260701",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-01T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260702",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-02T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260703",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-03T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260704",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-04T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260705",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-05T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260706",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-06T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260707",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-07T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260708",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-08T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260709",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-09T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260710",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-10T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260711",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-11T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_wimb_20260712",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Wimbledon (Sinner in tabellone)",
-    "dateTime": "2026-07-12T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260803",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-03T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260804",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-04T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260805",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-05T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260806",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-06T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260807",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-07T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260808",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-08T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cana_20260809",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Canadian Open (Sinner in tabellone)",
-    "dateTime": "2026-08-09T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260810",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-10T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260811",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-11T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260812",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-12T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260813",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-13T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260814",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-14T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260815",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-15T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_cinc_20260816",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Cincinnati Masters (Sinner in tabellone)",
-    "dateTime": "2026-08-16T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_us o_20260831",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-08-31T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260901",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-01T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260902",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-02T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260903",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-03T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260904",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-04T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260905",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-05T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260906",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-06T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260907",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-07T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260908",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-08T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260909",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-09T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260910",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-10T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260911",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-11T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260912",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-12T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_us o_20260913",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "US Open (Sinner in tabellone)",
-    "dateTime": "2026-09-13T11:00:00+02:00",
-    "broadcaster": "SuperTennis / Sky Sport"
-  },
-  {
-    "id": "atp_shan_20261007",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-07T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261008",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-08T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261009",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-09T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261010",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-10T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261011",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-11T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261012",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-12T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261013",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-13T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261014",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-14T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261015",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-15T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261016",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-16T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261017",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-17T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_shan_20261018",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Shanghai Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-18T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261026",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-26T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261027",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-27T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261028",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-28T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261029",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-29T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261030",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-30T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261031",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-10-31T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_pari_20261101",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "Paris Masters (Sinner in tabellone)",
-    "dateTime": "2026-11-01T11:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW"
-  },
-  {
-    "id": "atp_atp _20261115",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-15T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261116",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-16T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261117",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-17T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261118",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-18T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261119",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-19T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261120",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-20T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261121",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-21T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
-    "id": "atp_atp _20261122",
-    "sport": "Tennis",
-    "competition": "Circuito ATP",
-    "eventName": "ATP Finals (Torino) (Sinner in tabellone)",
-    "dateTime": "2026-11-22T11:00:00+02:00",
-    "broadcaster": "Sky Sport / Rai / NOW"
-  },
-  {
     "id": "wc26_2026-06-11_mexico_south_africa",
     "sport": "Calcio",
     "competition": "Mondiali 2026",
@@ -3598,5 +2366,341 @@
     "eventName": "[MotoGP] RAC #ValenciaGP",
     "dateTime": "2026-11-29T15:00:00+02:00",
     "broadcaster": "Sky Sport MotoGP / TV8 / NOW"
+  },
+  {
+    "id": "atp_aust_20260123",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-01-23T15:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260124",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open - Semifinale (Sinner?)",
+    "dateTime": "2026-01-24T15:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_aust_20260125",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Australian Open - Finale (Sinner?)",
+    "dateTime": "2026-01-25T15:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_indi_20260313",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-03-13T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260314",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters - Semifinale (Sinner?)",
+    "dateTime": "2026-03-14T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_indi_20260315",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Indian Wells Masters - Finale (Sinner?)",
+    "dateTime": "2026-03-15T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260327",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-03-27T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260328",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open - Semifinale (Sinner?)",
+    "dateTime": "2026-03-28T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_miam_20260329",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Miami Open - Finale (Sinner?)",
+    "dateTime": "2026-03-29T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260410",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-04-10T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260411",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters - Semifinale (Sinner?)",
+    "dateTime": "2026-04-11T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_mont_20260412",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Monte-Carlo Masters - Finale (Sinner?)",
+    "dateTime": "2026-04-12T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260501",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-05-01T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260502",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open - Semifinale (Sinner?)",
+    "dateTime": "2026-05-02T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_madr_20260503",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Madrid Open - Finale (Sinner?)",
+    "dateTime": "2026-05-03T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260515",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-05-15T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260516",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) - Semifinale (Sinner?)",
+    "dateTime": "2026-05-16T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_inte_20260517",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Internazionali d'Italia (Roma) - Finale (Sinner?)",
+    "dateTime": "2026-05-17T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_rola_20260605",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-06-05T15:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260606",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros - Semifinale (Sinner?)",
+    "dateTime": "2026-06-06T15:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_rola_20260607",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Roland Garros - Finale (Sinner?)",
+    "dateTime": "2026-06-07T15:00:00+02:00",
+    "broadcaster": "Eurosport / Discovery+"
+  },
+  {
+    "id": "atp_wimb_20260710",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-07-10T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260711",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon - Semifinale (Sinner?)",
+    "dateTime": "2026-07-11T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_wimb_20260712",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Wimbledon - Finale (Sinner?)",
+    "dateTime": "2026-07-12T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260807",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-08-07T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260808",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open - Semifinale (Sinner?)",
+    "dateTime": "2026-08-08T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cana_20260809",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Canadian Open - Finale (Sinner?)",
+    "dateTime": "2026-08-09T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260814",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-08-14T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260815",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters - Semifinale (Sinner?)",
+    "dateTime": "2026-08-15T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_cinc_20260816",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Cincinnati Masters - Finale (Sinner?)",
+    "dateTime": "2026-08-16T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_us o_20260911",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-09-11T15:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260912",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open - Semifinale (Sinner?)",
+    "dateTime": "2026-09-12T15:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_us o_20260913",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "US Open - Finale (Sinner?)",
+    "dateTime": "2026-09-13T15:00:00+02:00",
+    "broadcaster": "SuperTennis / Sky Sport"
+  },
+  {
+    "id": "atp_shan_20261016",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-10-16T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261017",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters - Semifinale (Sinner?)",
+    "dateTime": "2026-10-17T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_shan_20261018",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Shanghai Masters - Finale (Sinner?)",
+    "dateTime": "2026-10-18T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261030",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-10-30T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261031",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters - Semifinale (Sinner?)",
+    "dateTime": "2026-10-31T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_pari_20261101",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "Paris Masters - Finale (Sinner?)",
+    "dateTime": "2026-11-01T15:00:00+02:00",
+    "broadcaster": "Sky Sport / NOW"
+  },
+  {
+    "id": "atp_atp _20261120",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) - Quarti/Semifinali (Sinner?)",
+    "dateTime": "2026-11-20T15:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261121",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) - Semifinale (Sinner?)",
+    "dateTime": "2026-11-21T15:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
+  },
+  {
+    "id": "atp_atp _20261122",
+    "sport": "Tennis",
+    "competition": "Circuito ATP",
+    "eventName": "ATP Finals (Torino) - Finale (Sinner?)",
+    "dateTime": "2026-11-22T15:00:00+02:00",
+    "broadcaster": "Sky Sport / Rai / NOW"
   }
 ]
