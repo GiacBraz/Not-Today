@@ -10,7 +10,12 @@ interface CalendarProps {
 
 export default function CalendarWidget({ selectedDate, onSelectDate, eventDates }: CalendarProps) {
   // Lo Stato: Ricordiamo il mese/anno che l'utente sta visualizzando attualmente nel calendario (potrebbe scorrere ai mesi successivi)
-  const [currentMonth, setCurrentMonth] = useState(new Date(selectedDate));
+  // BUGFIX ANDROID: Non usiamo new Date(stringa) perché i motori Javascript (V8 vs WebKit) lo interpretano diversamente.
+  // Scomponiamo la stringa manualmente.
+  const [currentMonth, setCurrentMonth] = useState(() => {
+    const [y, m, d] = selectedDate.split('-');
+    return new Date(parseInt(y), parseInt(m) - 1, 1);
+  });
 
   // MATEMATICA DEL CALENDARIO
   const year = currentMonth.getFullYear();
