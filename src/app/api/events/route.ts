@@ -184,9 +184,8 @@ export async function GET() {
       headers: {
         'X-Auth-Token': apiKey
       },
-      // Aggiorniamo la cache ogni 60 secondi in automatico per avere i risultati in tempo reale
-      // restando sicuri contro i limiti dell'API (1 chiamata al minuto è perfetta)
-      next: { revalidate: 60 }
+      // Cambiato tag per forzare la distruzione della cache vecchia su Vercel
+      next: { revalidate: 60, tags: ['football-data-live-v2'] }
     });
 
     if (!res.ok) {

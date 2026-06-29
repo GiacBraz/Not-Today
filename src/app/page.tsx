@@ -14,7 +14,8 @@ export default function Home() {
     async function loadEvents() {
       try {
         // Chiamiamo l'API interna che ora ci restituisce SOLO il calcio
-        const res = await fetch('/api/events');
+        // cache: 'no-store' obbliga il BROWSER a scaricare i dati freschi (ignora la cache locale)
+        const res = await fetch('/api/events', { cache: 'no-store' });
         const apiData = await res.json();
         // Uniamo i dati offline (F1) con i dati freschi di internet (Calcio)
         setEventsData([...localEvents, ...apiData]);
