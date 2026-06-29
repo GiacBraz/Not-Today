@@ -18,6 +18,26 @@ const todaysMatches = [
         broadcaster: "Rai 1"
       },
       {
+        id: "wc_2026_16_missing_1", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Olanda vs Marocco", dateTime: "2026-06-30T03:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_missing_2", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Costa d'Avorio vs Norvegia", dateTime: "2026-06-30T19:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_missing_3", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Francia vs Svezia", dateTime: "2026-06-30T23:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_missing_4", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Messico vs Ecuador", dateTime: "2026-07-01T03:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_missing_5", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Inghilterra vs Repubblica Democratica del Congo", dateTime: "2026-07-01T18:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
         id: "wc_2026_16_3",
         sport: "Calcio",
         competition: "Mondiali 2026",
@@ -173,44 +193,70 @@ export async function GET() {
 
     const rawData = await res.json();
     const apiMatches: any[] = [];
+    const processedApiDates = new Set();
 
-    // 2. Il Motore di Traduzione (Data Mapper per football-data.org)
-    // Questa API professionale espone un array "matches" principale.
+    // SUPER-API V3: Il Database Locale è la roccia (Garantisce che non sparisca MAI nulla)
+    todaysMatches.forEach(localMatch => {
+      // Cerchiamo se l'API reale ha questa partita per prendere lo status LIVE
+      const realMatch = (rawData && rawData.matches) 
+        ? rawData.matches.find((m: any) => new Date(m.utcDate).getTime() === new Date(localMatch.dateTime).getTime()) 
+        : null;
+
+      let finalEventName = localMatch.eventName;
+      let finalStatus = "TIMED";
+
+      if (realMatch) {
+         processedApiDates.add(new Date(realMatch.utcDate).getTime());
+         finalStatus = realMatch.status || "TIMED";
+         
+         // Se l'API ha i nomi veri e non sono vuoti, sovrascriviamo i nostri placeholder
+         const homeTeam = realMatch.homeTeam?.name || realMatch.homeTeam?.shortName || "Da Definire";
+         const awayTeam = realMatch.awayTeam?.name || realMatch.awayTeam?.shortName || "Da Definire";
+         
+         if (homeTeam !== "Da Definire" && awayTeam !== "Da Definire") {
+            let stageName = realMatch.stage || realMatch.group || "Fase Finale";
+            if (stageName === "LAST_32" || stageName === "LAST_16") stageName = "Sedicesimi";
+            if (stageName === "QUARTER_FINALS") stageName = "Quarti di Finale";
+            if (stageName === "SEMI_FINALS") stageName = "Semifinali";
+            if (stageName === "FINAL") stageName = "Finale";
+            finalEventName = `${stageName}: ${homeTeam} vs ${awayTeam}`;
+         }
+      }
+
+      apiMatches.push({
+        id: localMatch.id,
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: finalEventName,
+        dateTime: localMatch.dateTime,
+        broadcaster: "Rai 1",
+        status: finalStatus
+      });
+    });
+
+    // Aggiungiamo eventuali altre partite dall'API reale che NON erano nel nostro database locale
     if (rawData && rawData.matches) {
       rawData.matches.forEach((match: any) => {
-        
-        // Estrazione sicura dei nomi delle squadre. Se non sono ancora state definite, usiamo "Da Definire"
-        const homeTeam = match.homeTeam?.name || match.homeTeam?.shortName || "Da Definire";
-        const awayTeam = match.awayTeam?.name || match.awayTeam?.shortName || "Da Definire";
-        
-        // Estraiamo il round o il gruppo (es. "LAST_16" o "GROUP_A")
-        let stageName = match.stage || match.group || "Fase Finale";
-        
-        // Una piccola traduzione al volo per rendere l'UI più bella
-        if (stageName === "LAST_16") stageName = "Sedicesimi";
-        if (stageName === "QUARTER_FINALS") stageName = "Quarti di Finale";
-        if (stageName === "SEMI_FINALS") stageName = "Semifinali";
-        if (stageName === "FINAL") stageName = "Finale";
-
-        let finalEventName = `${stageName}: ${homeTeam} vs ${awayTeam}`;
-        
-        if (homeTeam === "Da Definire" || awayTeam === "Da Definire") {
-          const matchTime = new Date(match.utcDate).getTime();
-          const localMatch = todaysMatches.find(m => new Date(m.dateTime).getTime() === matchTime);
-          if (localMatch) {
-             finalEventName = localMatch.eventName;
-          }
+        const matchTime = new Date(match.utcDate).getTime();
+        if (!processedApiDates.has(matchTime)) {
+          const homeTeam = match.homeTeam?.name || match.homeTeam?.shortName || "Da Definire";
+          const awayTeam = match.awayTeam?.name || match.awayTeam?.shortName || "Da Definire";
+          let stageName = match.stage || match.group || "Fase Finale";
+          if (stageName === "LAST_32" || stageName === "LAST_16") stageName = "Sedicesimi";
+          if (stageName === "QUARTER_FINALS") stageName = "Quarti di Finale";
+          if (stageName === "SEMI_FINALS") stageName = "Semifinali";
+          if (stageName === "FINAL") stageName = "Finale";
+          
+          apiMatches.push({
+            id: `wc_2026_${match.id || Math.random()}`,
+            sport: "Calcio",
+            competition: "Mondiali 2026",
+            eventName: `${stageName}: ${homeTeam} vs ${awayTeam}`,
+            dateTime: match.utcDate,
+            broadcaster: "Rai 1",
+            status: match.status || "TIMED"
+          });
         }
-
-        apiMatches.push({
-          id: `wc_2026_${match.id || Math.random()}`,
-          sport: "Calcio",
-          competition: "Mondiali 2026",
-          eventName: finalEventName,
-          dateTime: match.utcDate, // L'API professionale restituisce già la data formattata in ISO8601
-          broadcaster: "Rai 1",
-          status: match.status || "TIMED" // Estrazione del campo status (es. IN_PLAY)
-        });
       });
     }
 
