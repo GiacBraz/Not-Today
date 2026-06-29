@@ -2,9 +2,19 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    // 1. Chiamata alla VERA API Open-Source (Usiamo il JSON raw di GitHub per massima affidabilità)
-    // Impostiamo la tag per permettere a Vercel di invalidare la cache
-    const res = await fetch('https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json', {
+    // 1. Chiamata all'API Professionale (football-data.org)
+    // Passiamo l'API Key in modo sicuro tramite le variabili d'ambiente (il file .env.local)
+    const apiKey = process.env.FOOTBALL_DATA_API_KEY;
+    
+    if (!apiKey) {
+      throw new Error("API Key mancante nel file .env.local");
+    }
+
+    const res = await fetch('https://api.football-data.org/v4/competitions/WC/matches', {
+      headers: {
+        'X-Auth-Token': apiKey
+      },
+      // Cache gestita da Vercel tramite Tag, per invalidarla con il Cron Job
       next: { tags: ['football-data'] }
     });
 
@@ -15,31 +25,32 @@ export async function GET() {
     const rawData = await res.json();
     const apiMatches: any[] = [];
 
-    // 2. Il Motore di Traduzione (Data Mapper)
-    // L'API di OpenFootball organizza i dati per "Giornate" (Rounds) e poi "Partite" (Matches).
-    // Dobbiamo scorrere tutto e tradurlo nel nostro formato.
-    if (rawData && rawData.rounds) {
-      rawData.rounds.forEach((round: any, roundIndex: number) => {
-        if (round.matches) {
-          round.matches.forEach((match: any, matchIndex: number) => {
-            
-            // Estrarre in modo sicuro i nomi delle squadre (o "TBD" se non ancora sorteggiate)
-            const team1 = match.team1?.name || match.team1 || "Da Definire";
-            const team2 = match.team2?.name || match.team2 || "Da Definire";
-            
-            // Unire data e orario. Se l'orario non è ancora ufficiale, mettiamo un default (es. 16:00).
-            const matchTime = match.time ? `${match.time}:00Z` : "16:00:00Z";
-            
-            apiMatches.push({
-              id: `wc_2026_${roundIndex}_${matchIndex}`,
-              sport: "Calcio",
-              competition: "Mondiali 2026",
-              eventName: `${round.name || 'Fase Finale'}: ${team1} vs ${team2}`,
-              dateTime: `${match.date}T${matchTime}`,
-              broadcaster: "Rai 1" // Il marchio Rai 1 forzato come richiesto
-            });
-          });
-        }
+    // 2. Il Motore di Traduzione (Data Mapper per football-data.org)
+    // Questa API professionale espone un array "matches" principale.
+    if (rawData && rawData.matches) {
+      rawData.matches.forEach((match: any) => {
+        
+        // Estrazione sicura dei nomi delle squadre. Se non sono ancora state definite, usiamo "Da Definire"
+        const homeTeam = match.homeTeam?.name || match.homeTeam?.shortName || "Da Definire";
+        const awayTeam = match.awayTeam?.name || match.awayTeam?.shortName || "Da Definire";
+        
+        // Estraiamo il round o il gruppo (es. "LAST_16" o "GROUP_A")
+        let stageName = match.stage || match.group || "Fase Finale";
+        
+        // Una piccola traduzione al volo per rendere l'UI più bella
+        if (stageName === "LAST_16") stageName = "Sedicesimi";
+        if (stageName === "QUARTER_FINALS") stageName = "Quarti di Finale";
+        if (stageName === "SEMI_FINALS") stageName = "Semifinali";
+        if (stageName === "FINAL") stageName = "Finale";
+
+        apiMatches.push({
+          id: `wc_2026_${match.id || Math.random()}`,
+          sport: "Calcio",
+          competition: "Mondiali 2026",
+          eventName: `${stageName}: ${homeTeam} vs ${awayTeam}`,
+          dateTime: match.utcDate, // L'API professionale restituisce già la data formattata in ISO8601 (es: 2026-06-29T18:00:00Z)
+          broadcaster: "Rai 1" // Il marchio Rai 1 forzato come richiesto per i Mondiali
+        });
       });
     }
 
@@ -51,44 +62,90 @@ export async function GET() {
     }
 
   } catch (error) {
-    // IL DATABASE DI EMERGENZA UFFICIALE (Aggiornato a Giugno 2026)
-    // Siccome in alcuni orari l'API pubblica va in sovraccarico o il file JSON non è formattato bene,
-    // la nostra API interna usa questo database di fallback aggiornato in tempo reale
-    // contenente le VERE partite dei sedicesimi in programma oggi e domani.
-    
-    console.warn("API Calcio in sovraccarico. Attivazione Fallback Dati 2026:", error);
+    // IL DATABASE DI EMERGENZA (Fallback)
+    // In caso di API Key scaduta, problemi di rete, o se il torneo non è ancora caricato
+    // restituiamo questo blocco di partite fisse.
+    console.warn("Problema API Calcio. Attivazione Fallback Dati 2026:", error);
     
     const todaysMatches = [
       {
         id: "wc_2026_16_1",
         sport: "Calcio",
         competition: "Mondiali 2026",
-        eventName: "Sedicesimi: Italia vs Svizzera",
-        dateTime: "2026-06-29T18:00:00Z",
+        eventName: "Sedicesimi: Brasile vs Giappone",
+        dateTime: "2026-06-29T19:00:00+02:00",
         broadcaster: "Rai 1"
       },
       {
         id: "wc_2026_16_2",
         sport: "Calcio",
         competition: "Mondiali 2026",
-        eventName: "Sedicesimi: USA vs Olanda",
-        dateTime: "2026-06-29T21:00:00Z",
+        eventName: "Sedicesimi: Germania vs Paraguay",
+        dateTime: "2026-06-29T22:30:00+02:00",
         broadcaster: "Rai 1"
       },
       {
         id: "wc_2026_16_3",
         sport: "Calcio",
         competition: "Mondiali 2026",
-        eventName: "Sedicesimi: Brasile vs Uruguay",
-        dateTime: "2026-06-30T18:00:00Z",
+        eventName: "Sedicesimi: Belgio vs Senegal",
+        dateTime: "2026-07-01T22:00:00+02:00",
         broadcaster: "Rai 1"
       },
       {
         id: "wc_2026_16_4",
         sport: "Calcio",
         competition: "Mondiali 2026",
-        eventName: "Sedicesimi: Francia vs Belgio",
-        dateTime: "2026-06-30T21:00:00Z",
+        eventName: "Sedicesimi: Stati Uniti vs Bosnia ed Erzegovina",
+        dateTime: "2026-07-02T02:00:00+02:00",
+        broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_5",
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Spagna vs Austria",
+        dateTime: "2026-07-02T21:00:00+02:00",
+        broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_6",
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Portogallo vs Croazia",
+        dateTime: "2026-07-03T01:00:00+02:00",
+        broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_7",
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Svizzera vs Algeria",
+        dateTime: "2026-07-03T05:00:00+02:00",
+        broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_8",
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Australia vs Egitto",
+        dateTime: "2026-07-03T20:00:00+02:00",
+        broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_9",
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Argentina vs Capo Verde",
+        dateTime: "2026-07-04T00:00:00+02:00",
+        broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_16_10",
+        sport: "Calcio",
+        competition: "Mondiali 2026",
+        eventName: "Sedicesimi: Colombia vs Ghana",
+        dateTime: "2026-07-04T03:30:00+02:00",
         broadcaster: "Rai 1"
       }
     ];
