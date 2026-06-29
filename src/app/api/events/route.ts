@@ -1,5 +1,6 @@
-import { NextResponse } from 
-    const todaysMatches = [
+import { NextResponse } from 'next/server';
+
+const todaysMatches = [
       {
         id: "wc_2026_16_1",
         sport: "Calcio",
@@ -145,7 +146,8 @@ import { NextResponse } from
         eventName: "Ottavi di Finale: W73 vs W75", dateTime: "2026-07-04T19:00:00+02:00", broadcaster: "Rai 1"
       }
     ];
-'next/server';
+
+
 
 export async function GET() {
   try {
