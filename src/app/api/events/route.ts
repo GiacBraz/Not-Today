@@ -192,11 +192,21 @@ export async function GET() {
         if (stageName === "SEMI_FINALS") stageName = "Semifinali";
         if (stageName === "FINAL") stageName = "Finale";
 
+        let finalEventName = `${stageName}: ${homeTeam} vs ${awayTeam}`;
+        
+        if (homeTeam === "Da Definire" || awayTeam === "Da Definire") {
+          const matchTime = new Date(match.utcDate).getTime();
+          const localMatch = todaysMatches.find(m => new Date(m.dateTime).getTime() === matchTime);
+          if (localMatch) {
+             finalEventName = localMatch.eventName;
+          }
+        }
+
         apiMatches.push({
           id: `wc_2026_${match.id || Math.random()}`,
           sport: "Calcio",
           competition: "Mondiali 2026",
-          eventName: `${stageName}: ${homeTeam} vs ${awayTeam}`,
+          eventName: finalEventName,
           dateTime: match.utcDate, // L'API professionale restituisce già la data formattata in ISO8601
           broadcaster: "Rai 1",
           status: match.status || "TIMED" // Estrazione del campo status (es. IN_PLAY)
