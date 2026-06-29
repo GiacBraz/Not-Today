@@ -213,13 +213,27 @@ export async function GET() {
          const homeTeam = realMatch.homeTeam?.name || realMatch.homeTeam?.shortName || "Da Definire";
          const awayTeam = realMatch.awayTeam?.name || realMatch.awayTeam?.shortName || "Da Definire";
          
+         let homeScore = null;
+         let awayScore = null;
+         
+         if (realMatch.score && realMatch.score.fullTime && realMatch.score.fullTime.home !== null) {
+            homeScore = realMatch.score.fullTime.home;
+            awayScore = realMatch.score.fullTime.away;
+         }
+
          if (homeTeam !== "Da Definire" && awayTeam !== "Da Definire") {
             let stageName = realMatch.stage || realMatch.group || "Fase Finale";
             if (stageName === "LAST_32" || stageName === "LAST_16") stageName = "Sedicesimi";
             if (stageName === "QUARTER_FINALS") stageName = "Quarti di Finale";
             if (stageName === "SEMI_FINALS") stageName = "Semifinali";
             if (stageName === "FINAL") stageName = "Finale";
-            finalEventName = `${stageName}: ${homeTeam} vs ${awayTeam}`;
+            
+            // Se c'è un punteggio (partita Live o Finita), lo mettiamo direttamente nel nome evento!
+            if (homeScore !== null && awayScore !== null) {
+               finalEventName = `${stageName}: ${homeTeam} ${homeScore} - ${awayScore} ${awayTeam}`;
+            } else {
+               finalEventName = `${stageName}: ${homeTeam} vs ${awayTeam}`;
+            }
          }
       }
 
@@ -247,11 +261,16 @@ export async function GET() {
           if (stageName === "SEMI_FINALS") stageName = "Semifinali";
           if (stageName === "FINAL") stageName = "Finale";
           
+          let eventTitle = `${stageName}: ${homeTeam} vs ${awayTeam}`;
+          if (match.score && match.score.fullTime && match.score.fullTime.home !== null) {
+             eventTitle = `${stageName}: ${homeTeam} ${match.score.fullTime.home} - ${match.score.fullTime.away} ${awayTeam}`;
+          }
+
           apiMatches.push({
             id: `wc_2026_${match.id || Math.random()}`,
             sport: "Calcio",
             competition: "Mondiali 2026",
-            eventName: `${stageName}: ${homeTeam} vs ${awayTeam}`,
+            eventName: eventTitle,
             dateTime: match.utcDate,
             broadcaster: "Rai 1",
             status: match.status || "TIMED"
