@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import localEvents from '@/data/calendario.json';
 
 export async function GET() {
   try {
@@ -63,15 +62,13 @@ export async function GET() {
       }
     ];
 
-    // 3. UNIONE DEI DUE MONDI (Il CD-ROM e la RAM si fondono)
-    const combinedEvents = [...localEvents, ...apiMatches];
-
-    return NextResponse.json(combinedEvents);
+    // Restituiamo ESCLUSIVAMENTE le partite del mondiale estratte dall'API
+    return NextResponse.json(apiMatches);
 
   } catch (error) {
-    // IL PIANO B (Fallback): Se l'API cade o scoppia internet,
-    // restituiamo senza fare domande il nostro solido file locale. L'app non muore mai.
-    console.error("API Calcio irraggiungibile, uso Fallback locale:", error);
-    return NextResponse.json(localEvents);
+    // Se l'API esterna è giù, restituiamo un array vuoto.
+    // Il client capirà e mostrerà solo la F1 (che ha già in memoria locale).
+    console.error("API Calcio irraggiungibile:", error);
+    return NextResponse.json([]);
   }
 }

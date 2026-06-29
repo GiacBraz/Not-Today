@@ -2,22 +2,25 @@
 import { useState, useEffect } from "react";
 import EventCard from "@/components/EventCard";
 import CalendarWidget from "@/components/CalendarWidget";
-// L'importazione statica è stata rimossa, ora i dati vengono scaricati dinamicamente.
+import localEvents from "@/data/calendario.json"; // RIPRISTINATO per avere gli sport base sempre offline
+
 export default function Home() {
-  // NUOVI STATI PER I DATI DINAMICI
-  const [eventsData, setEventsData] = useState<any[]>([]);
+  // La base di partenza è il nostro file locale (Zero attesa, sempre online)
+  const [eventsData, setEventsData] = useState<any[]>(localEvents);
   const [isLoading, setIsLoading] = useState(true);
 
   // Questo useEffect viene eseguito una volta sola quando l'app si avvia
   useEffect(() => {
     async function loadEvents() {
       try {
-        // Chiamiamo la nostra fantastica API interna (che gestisce RAM e JSON locale)
+        // Chiamiamo l'API interna che ora ci restituisce SOLO il calcio
         const res = await fetch('/api/events');
-        const data = await res.json();
-        setEventsData(data);
+        const apiData = await res.json();
+        // Uniamo i dati offline (F1) con i dati freschi di internet (Calcio)
+        setEventsData([...localEvents, ...apiData]);
       } catch (error) {
-        console.error("Errore nel caricamento eventi:", error);
+        console.error("Nessuna connessione internet. Mantengo i dati locali F1:", error);
+        // In caso di offline, eventsData rimarrà semplicemente uguale a localEvents.
       } finally {
         setIsLoading(false);
       }
