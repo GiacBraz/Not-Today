@@ -1,3 +1,4 @@
+export const revalidate = 60; // Assicura che l'intera rotta si rinfreschi ogni 60 secondi
 import { NextResponse } from 'next/server';
 
 const todaysMatches = [
@@ -183,8 +184,9 @@ export async function GET() {
       headers: {
         'X-Auth-Token': apiKey
       },
-      // Cache gestita da Vercel tramite Tag, per invalidarla con il Cron Job
-      next: { tags: ['football-data'] }
+      // Aggiorniamo la cache ogni 60 secondi in automatico per avere i risultati in tempo reale
+      // restando sicuri contro i limiti dell'API (1 chiamata al minuto è perfetta)
+      next: { revalidate: 60 }
     });
 
     if (!res.ok) {
