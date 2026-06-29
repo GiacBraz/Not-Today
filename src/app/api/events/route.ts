@@ -149,6 +149,63 @@ export async function GET() {
         dateTime: "2026-07-04T03:30:00+02:00",
         broadcaster: "Rai 1"
       }
+,
+      {
+        id: "wc_2026_future_0", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W76 vs W78 (Round of 16)", dateTime: "2026-07-05T22:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_1", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W79 vs W80 (Round of 16)", dateTime: "2026-07-06T02:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_2", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W83 vs W84 (Round of 16)", dateTime: "2026-07-06T21:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_3", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W81 vs W82 (Round of 16)", dateTime: "2026-07-07T02:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_4", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W86 vs W88 (Round of 16)", dateTime: "2026-07-07T18:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_5", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W85 vs W87 (Round of 16)", dateTime: "2026-07-07T22:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_6", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W89 vs W90 (Quarter-final)", dateTime: "2026-07-09T22:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_7", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W93 vs W94 (Quarter-final)", dateTime: "2026-07-10T21:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_8", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W91 vs W92 (Quarter-final)", dateTime: "2026-07-11T23:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_9", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W95 vs W96 (Quarter-final)", dateTime: "2026-07-12T03:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_10", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W97 vs W98 (Semi-final)", dateTime: "2026-07-14T21:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_11", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W99 vs W100 (Semi-final)", dateTime: "2026-07-15T21:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_12", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: L101 vs L102 (Match for third place)", dateTime: "2026-07-18T23:00:00+02:00", broadcaster: "Rai 1"
+      },
+      {
+        id: "wc_2026_future_13", sport: "Calcio", competition: "Mondiali 2026",
+        eventName: "Fase Finale: W101 vs W102 (Final)", dateTime: "2026-07-19T21:00:00+02:00", broadcaster: "Rai 1"
+      }
     ];
 
     return NextResponse.json(todaysMatches);
