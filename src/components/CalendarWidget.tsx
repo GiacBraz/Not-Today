@@ -85,7 +85,9 @@ export default function CalendarWidget({ selectedDate, onSelectDate, eventDates 
       {/* Intestazione (Mese, Anno, Frecce) */}
       <div className="flex justify-between items-center mb-6 px-2">
         <button onClick={prevMonth} className="p-2 hover:bg-slate-800 rounded-full text-slate-400 transition-colors">&lt;</button>
-        <h2 className="text-xl font-bold text-white tracking-wide">{monthNames[month]} {year}</h2>
+        <h2 className="text-xl font-bold text-white tracking-wide">
+          <span key={`${month}-${year}`}>{monthNames[month]} {year}</span>
+        </h2>
         <button onClick={nextMonth} className="p-2 hover:bg-slate-800 rounded-full text-slate-400 transition-colors">&gt;</button>
       </div>
 
