@@ -48,8 +48,9 @@ export async function GET() {
           sport: "Calcio",
           competition: "Mondiali 2026",
           eventName: `${stageName}: ${homeTeam} vs ${awayTeam}`,
-          dateTime: match.utcDate, // L'API professionale restituisce già la data formattata in ISO8601 (es: 2026-06-29T18:00:00Z)
-          broadcaster: "Rai 1" // Il marchio Rai 1 forzato come richiesto per i Mondiali
+          dateTime: match.utcDate, // L'API professionale restituisce già la data formattata in ISO8601
+          broadcaster: "Rai 1",
+          status: match.status || "TIMED" // Estrazione del campo status (es. IN_PLAY)
         });
       });
     }

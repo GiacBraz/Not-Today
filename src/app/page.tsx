@@ -62,10 +62,15 @@ export default function Home() {
     const isSameDate = event.dateTime.startsWith(selectedDate);
     if (!isSameDate) return false;
 
-    // Se stiamo guardando la data di OGGI, rimuovi gli eventi già passati
+    // Se stiamo guardando la data di OGGI, rimuovi gli eventi passati da oltre 3 ore
     if (selectedDate === todayStr) {
+      // Regola 1: Se l'API ci dice esplicitamente che è live (IN_PLAY o PAUSED), mostra sempre l'evento
+      if (event.status === "IN_PLAY" || event.status === "PAUSED") return true;
+      
+      // Regola 2: Altrimenti, usa una tolleranza di 3 ore dall'orario di inizio
       const eventTime = new Date(event.dateTime);
-      return eventTime >= now;
+      const treOreFa = new Date(now.getTime() - (3 * 60 * 60 * 1000));
+      return eventTime >= treOreFa;
     }
     
     return true;
