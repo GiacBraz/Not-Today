@@ -10,12 +10,13 @@ interface EventCardProps {
   eventName: string;
   dateTime: string;
   broadcaster: string;
+  status?: string;
 }
 
 // --- PRINCIPIO SOLID (S - Single Responsibility) ---
 // Questo "Componente" ha UNA SOLA responsabilità: prendere dei dati e disegnarli in un rettangolo estetico.
 // Non fa calcoli strani, non scarica dati da internet, disegna e basta.
-export default function EventCard({ sport, competition, eventName, dateTime, broadcaster }: EventCardProps) {
+export default function EventCard({ sport, competition, eventName, dateTime, broadcaster, status }: EventCardProps) {
   
   // Trasformiamo la data del computer ("2026-09-06T15:00:00") in formato umano
   const dateObj = new Date(dateTime);
@@ -56,7 +57,29 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
           <span className="competition-inline">{competition}</span>
         </div>
         {/* L'orario bello grande, che è la cosa più importante */}
-        <span className="time">{timeString}</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          {(status === "IN_PLAY" || status === "PAUSED") && (
+            <span className="live-badge" style={{
+              color: '#ef4444', 
+              fontWeight: 'bold', 
+              fontSize: '14px',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '4px',
+              animation: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+            }}>
+              <span style={{ 
+                width: '8px', 
+                height: '8px', 
+                backgroundColor: '#ef4444', 
+                borderRadius: '50%', 
+                display: 'inline-block' 
+              }}></span>
+              LIVE
+            </span>
+          )}
+          <span className="time">{timeString}</span>
+        </div>
       </div>
       <div className="card-body">
         {/* Chi gioca (es. Milan - Juve) diventa il titolo principale della card */}

@@ -152,6 +152,7 @@ export default function Home() {
                   eventName={event.eventName}
                   dateTime={event.dateTime}
                   broadcaster={event.broadcaster}
+                  status={event.status}
                 />
               ))}
             </div>

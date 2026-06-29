@@ -118,3 +118,12 @@ h1.title {
   font-size: 0.85rem;
   color: var(--text-muted);
 }
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
