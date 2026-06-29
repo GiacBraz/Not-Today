@@ -1,10 +1,29 @@
 "use client"; // Necessario perché la pagina ora ha una memoria "Stato"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import EventCard from "@/components/EventCard";
 import CalendarWidget from "@/components/CalendarWidget";
-import eventsData from "@/data/calendario.json";
-
+// L'importazione statica è stata rimossa, ora i dati vengono scaricati dinamicamente.
 export default function Home() {
+  // NUOVI STATI PER I DATI DINAMICI
+  const [eventsData, setEventsData] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Questo useEffect viene eseguito una volta sola quando l'app si avvia
+  useEffect(() => {
+    async function loadEvents() {
+      try {
+        // Chiamiamo la nostra fantastica API interna (che gestisce RAM e JSON locale)
+        const res = await fetch('/api/events');
+        const data = await res.json();
+        setEventsData(data);
+      } catch (error) {
+        console.error("Errore nel caricamento eventi:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    loadEvents();
+  }, []);
   // 1. Definiamo la data di default all'apertura (Oggi) - Formato es. 2026-06-17
   const today = new Date();
   const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
@@ -34,8 +53,19 @@ export default function Home() {
   const uniqueEventDates = [...new Set(eventDatesWithEvents)];
 
   // 4. IL FILTRO MAGICO: prendiamo gli eventi filtrati per sport e teniamo SOLO quelli della data selezionata.
+  const now = new Date();
+  
   const filteredEvents = sportFilteredEvents.filter(event => {
-    return event.dateTime.startsWith(selectedDate);
+    const isSameDate = event.dateTime.startsWith(selectedDate);
+    if (!isSameDate) return false;
+
+    // Se stiamo guardando la data di OGGI, rimuovi gli eventi già passati
+    if (selectedDate === todayStr) {
+      const eventTime = new Date(event.dateTime);
+      return eventTime >= now;
+    }
+    
+    return true;
   });
 
   // 5. Ordiniamo gli eventi filtrati in modo cronologico (dal mattino alla sera)
@@ -92,8 +122,13 @@ export default function Home() {
             Programma del {dataFormattataItaliana}
           </h2>
 
-          {/* LA SCELTA BIVIO: Se la lista filtrata è vuota o no */}
-          {sortedFilteredEvents.length === 0 ? (
+          {/* LOADER - Mostriamo una rotella mentre Vercel unisce i dati in RAM */}
+          {isLoading ? (
+            <div className="text-center p-10 mt-8">
+              <div className="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+              <p className="text-slate-500 animate-pulse">Connessione ai server sportivi in corso...</p>
+            </div>
+          ) : sortedFilteredEvents.length === 0 ? (
             // Caso A: Nessun evento
             <div className="text-center p-10 bg-slate-900/40 rounded-3xl border border-dashed border-slate-700/50 mt-8">
               <p className="text-slate-500 italic">Non ci sono eventi sportivi in programma per questa data.</p>
