@@ -77,18 +77,18 @@ function isoUtcToRome(utcStr: string): string {
   }
 }
 
-function calcolaBroadcasterSerieA(utcDateStr?: string): string {
-  if (!utcDateStr) return "DAZN (In attesa orario Lega)";
+function calcolaBroadcasterSerieA(utcDateStr?: string, status?: string): string {
+  if (!utcDateStr || status === "SCHEDULED") return "DAZN o Now";
   try {
     const d = new Date(utcDateStr);
+    // Se mezzanotte (placeholder per gare 2027 da calendarizzare)
+    if (d.getUTCHours() === 0 && d.getUTCMinutes() === 0) {
+      return "DAZN o Now";
+    }
+
     // Convertiamo in ora locale Roma per verificare slot
     const romeTimeStr = d.toLocaleTimeString('it-IT', { timeZone: 'Europe/Rome', hour: '2-digit', minute: '2-digit', hour12: false });
     const romeDayStr = d.toLocaleDateString('it-IT', { timeZone: 'Europe/Rome', weekday: 'short' }).toLowerCase();
-    
-    // Se mezzanotte (placeholder per gare 2027 da calendarizzare)
-    if (d.getUTCHours() === 0 && d.getUTCMinutes() === 0) {
-      return "DAZN (In attesa orario Lega)";
-    }
 
     // Slot Co-esclusiva Sky:
     // Sabato 20:45, Domenica 18:00, Lunedì 20:45, Venerdì 20:45, Mercoledì 20:45
@@ -172,14 +172,27 @@ export async function GET() {
           title = `Serie A: ${home} ${hScore} - ${aScore} ${away}`;
         }
 
+        const isPlaceholder = !m.utcDate || status === 'SCHEDULED' || (() => {
+          try {
+            const d = new Date(m.utcDate);
+            return d.getUTCHours() === 0 && d.getUTCMinutes() === 0;
+          } catch {
+            return false;
+          }
+        })();
+
+        const matchDateTime = isPlaceholder && m.utcDate
+          ? `${m.utcDate.split('T')[0]}T15:00:00+01:00`
+          : isoUtcToRome(m.utcDate);
+
         events.push({
           id: `sa_2627_${m.id}`,
           sport: "Calcio",
           competition: "Serie A",
           eventName: title,
-          dateTime: isoUtcToRome(m.utcDate),
-          broadcaster: calcolaBroadcasterSerieA(m.utcDate),
-          status: status
+          dateTime: matchDateTime,
+          broadcaster: calcolaBroadcasterSerieA(m.utcDate, status),
+          status: isPlaceholder ? 'SCHEDULED' : status
         });
       }
     }
