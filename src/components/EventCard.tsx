@@ -11,12 +11,13 @@ interface EventCardProps {
   dateTime: string;
   broadcaster: string;
   status?: string;
+  isFinished?: boolean;
 }
 
 // --- PRINCIPIO SOLID (S - Single Responsibility) ---
 // Questo "Componente" ha UNA SOLA responsabilità: prendere dei dati e disegnarli in un rettangolo estetico.
 // Non fa calcoli strani, non scarica dati da internet, disegna e basta.
-export default function EventCard({ sport, competition, eventName, dateTime, broadcaster, status }: EventCardProps) {
+export default function EventCard({ sport, competition, eventName, dateTime, broadcaster, status, isFinished }: EventCardProps) {
   
   // Trasformiamo la data del computer ("2026-09-06T15:00:00") in formato umano
   const dateObj = new Date(dateTime);
@@ -43,11 +44,14 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
   } else if (s.includes("tennis")) {
     badgeColor = "#22c55e"; // Verde
     emoji = "🎾";
+  } else if (s.includes("sci") || s.includes("ski")) {
+    badgeColor = "#06b6d4"; // Ciano
+    emoji = "⛷️";
   }
 
   // Qui sotto usiamo "className" per collegare i pezzetti di codice allo stile CSS che scriveremo dopo
   return (
-    <div className="card">
+    <div className={`card ${isFinished ? 'card-finished' : ''}`}>
       <div className="card-header">
         {/* Il Badge colorato per lo sport e accanto il nome della competizione */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -56,9 +60,21 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
           </span>
           <span className="competition-inline">{competition}</span>
         </div>
-        {/* L'orario bello grande, che è la cosa più importante */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          {(status === "IN_PLAY" || status === "PAUSED") && (
+        {/* L'orario bello grande, con eventuale badge Terminato o LIVE */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          {isFinished ? (
+            <span style={{
+              color: '#94a3b8',
+              fontSize: '12px',
+              fontWeight: 600,
+              backgroundColor: 'rgba(148, 163, 184, 0.15)',
+              padding: '2px 8px',
+              borderRadius: '6px',
+              border: '1px solid rgba(148, 163, 184, 0.2)'
+            }}>
+              Terminato
+            </span>
+          ) : (status === "IN_PLAY" || status === "PAUSED") ? (
             <span className="live-badge" style={{
               color: '#ef4444', 
               fontWeight: 'bold', 
@@ -77,7 +93,7 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
               }}></span>
               LIVE
             </span>
-          )}
+          ) : null}
           <span className="time">{timeString}</span>
         </div>
       </div>
