@@ -909,7 +909,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter 4 - 1 Monza",
     "dateTime": "2026-08-22T18:30:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "FINISHED"
   },
   {
@@ -942,7 +942,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Cagliari 0 - 1 Inter",
     "dateTime": "2026-08-30T20:45:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "FINISHED"
   },
   {
@@ -983,7 +983,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter 3 - 2 Napoli",
     "dateTime": "2026-09-05T18:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "FINISHED"
   },
   {
@@ -1000,7 +1000,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Real Madrid 2 - 1 Inter",
     "dateTime": "2026-09-08T21:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Sky Sport / NOW",
     "status": "FINISHED"
   },
   {
@@ -1089,7 +1089,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter 5 - 3 Udinese",
     "dateTime": "2026-09-14T20:45:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Sky Sport / DAZN",
     "status": "FINISHED"
   },
   {
@@ -1106,7 +1106,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Roma 2 - 2 Inter",
     "dateTime": "2026-09-19T18:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "FINISHED"
   },
   {
@@ -1219,7 +1219,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter 3 - 0 Parma",
     "dateTime": "2026-10-10T18:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "FINISHED"
   },
   {
@@ -1244,7 +1244,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Inter vs Club Brugge",
     "dateTime": "2026-10-13T21:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Sky Sport / NOW",
     "status": "TIMED"
   },
   {
@@ -1269,7 +1269,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Bologna vs Inter",
     "dateTime": "2026-10-17T18:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1286,7 +1286,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Inter vs Shakhtar Donetsk",
     "dateTime": "2026-10-21T21:00:00+02:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Prime Video (Esclusiva)",
     "status": "TIMED"
   },
   {
@@ -1343,7 +1343,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Fiorentina",
     "dateTime": "2026-10-25T12:30:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1360,7 +1360,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Venezia vs Inter",
     "dateTime": "2026-10-28T18:30:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1417,7 +1417,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Milan vs Inter",
     "dateTime": "2026-10-31T20:45:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Sky Sport / DAZN",
     "status": "TIMED"
   },
   {
@@ -1458,7 +1458,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Feyenoord vs Inter",
     "dateTime": "2026-11-03T21:00:00+01:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Sky Sport / NOW",
     "status": "TIMED"
   },
   {
@@ -1515,7 +1515,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Como",
     "dateTime": "2026-11-08T18:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Sky Sport / DAZN",
     "status": "TIMED"
   },
   {
@@ -1612,7 +1612,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Atalanta vs Inter",
     "dateTime": "2026-11-22T20:45:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1621,7 +1621,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Inter vs Stoccarda",
     "dateTime": "2026-11-25T21:00:00+01:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Prime Video (Esclusiva)",
     "status": "TIMED"
   },
   {
@@ -1670,7 +1670,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Genoa",
     "dateTime": "2026-11-28T20:45:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Sky Sport / DAZN",
     "status": "TIMED"
   },
   {
@@ -1727,7 +1727,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Frosinone vs Inter",
     "dateTime": "2026-12-05T18:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1744,7 +1744,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Borussia Dortmund vs Inter",
     "dateTime": "2026-12-09T21:00:00+01:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Prime Video (Esclusiva)",
     "status": "TIMED"
   },
   {
@@ -1753,7 +1753,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Torino",
     "dateTime": "2026-12-13T15:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1762,7 +1762,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Lecce vs Inter",
     "dateTime": "2026-12-18T20:45:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Sky Sport / DAZN",
     "status": "TIMED"
   },
   {
@@ -1771,7 +1771,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Sassuolo",
     "dateTime": "2027-01-03T12:30:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1780,7 +1780,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Lazio vs Inter",
     "dateTime": "2027-01-06T20:45:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Sky Sport / DAZN",
     "status": "TIMED"
   },
   {
@@ -1789,7 +1789,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Juventus",
     "dateTime": "2027-01-10T20:45:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "TIMED"
   },
   {
@@ -1798,7 +1798,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Parma vs Inter",
     "dateTime": "2027-01-17T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1807,7 +1807,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Inter vs Liverpool",
     "dateTime": "2027-01-19T21:00:00+01:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Sky Sport / NOW",
     "status": "TIMED"
   },
   {
@@ -1816,7 +1816,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Venezia",
     "dateTime": "2027-01-24T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1825,7 +1825,7 @@
     "competition": "Champions League",
     "eventName": "Champions League: Slovan Bratislava vs Inter",
     "dateTime": "2027-01-27T21:00:00+01:00",
-    "broadcaster": "Sky Sport / NOW / Prime Video",
+    "broadcaster": "Sky Sport / NOW",
     "status": "TIMED"
   },
   {
@@ -1834,7 +1834,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Napoli vs Inter",
     "dateTime": "2027-01-31T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1843,7 +1843,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Cagliari",
     "dateTime": "2027-02-07T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1852,7 +1852,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Milan",
     "dateTime": "2027-02-14T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1861,7 +1861,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Fiorentina vs Inter",
     "dateTime": "2027-02-21T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1870,7 +1870,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Atalanta",
     "dateTime": "2027-02-28T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1879,7 +1879,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Udinese vs Inter",
     "dateTime": "2027-03-07T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1888,7 +1888,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Torino vs Inter",
     "dateTime": "2027-03-14T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1897,7 +1897,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Frosinone",
     "dateTime": "2027-03-21T01:00:00+01:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1906,7 +1906,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Genoa vs Inter",
     "dateTime": "2027-04-04T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1915,7 +1915,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Roma",
     "dateTime": "2027-04-11T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1924,7 +1924,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Monza vs Inter",
     "dateTime": "2027-04-18T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1933,7 +1933,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Bologna",
     "dateTime": "2027-04-25T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1942,7 +1942,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Como vs Inter",
     "dateTime": "2027-05-02T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1951,7 +1951,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Lecce",
     "dateTime": "2027-05-09T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1960,7 +1960,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Juventus vs Inter",
     "dateTime": "2027-05-16T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1969,7 +1969,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Inter vs Lazio",
     "dateTime": "2027-05-23T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   },
   {
@@ -1978,7 +1978,7 @@
     "competition": "Serie A",
     "eventName": "Serie A: Sassuolo vs Inter",
     "dateTime": "2027-05-30T02:00:00+02:00",
-    "broadcaster": "DAZN / Sky",
+    "broadcaster": "Solo DAZN",
     "status": "SCHEDULED"
   }
 ]

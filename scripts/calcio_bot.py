@@ -2,7 +2,7 @@ import json
 import os
 import urllib.request
 import re
-from datetime import datetime, timezone
+from datetime import datetime
 from zoneinfo import ZoneInfo
 import openpyxl
 
@@ -74,13 +74,84 @@ def fetch_api_matches(competition_code, api_key):
         return []
 
 def iso_utc_to_rome(utc_str):
-    """Converte un timestamp UTC ISO (es. 2026-08-22T16:30:00Z) nel fuso orario di Roma (+02:00 o +01:00)."""
+    """Converte un timestamp UTC ISO nel fuso orario di Roma (+02:00 o +01:00)."""
     try:
         dt = datetime.fromisoformat(utc_str.replace('Z', '+00:00'))
         rome_dt = dt.astimezone(ZoneInfo('Europe/Rome'))
         return rome_dt.isoformat()
     except Exception:
         return utc_str
+
+def calcola_broadcaster_serie_a(utc_date_str):
+    """
+    Regole ufficiali Bando Diritti TV Lega Serie A (2024-2029):
+    - DAZN trasmette TUTTE e 10 le partite a giornata (38 su 38 dell'Inter).
+    - Sky trasmette 3 partite in co-esclusiva negli slot prefissati:
+      * Sabato 20:45
+      * Domenica 18:00
+      * Lunedì 20:45 (o Venerdì 20:45)
+      * Turno infrasettimanale slot serale Sky
+    - Tutti gli altri slot (sabato 15:00/18:00, domenica 12:30/15:00/20:45): Solo DAZN.
+    - Se l'orario è a mezzanotte (partite del 2027 ancora non anticipate): DAZN (In attesa orario Lega).
+    """
+    if not utc_date_str:
+        return "DAZN (In attesa orario Lega)"
+    try:
+        dt = datetime.fromisoformat(utc_date_str.replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/Rome'))
+    except Exception:
+        return "DAZN"
+
+    # Se non c'è orario definito (placeholder 00:00)
+    if dt.hour == 0 and dt.minute == 0:
+        return "DAZN (In attesa orario Lega)"
+
+    wd = dt.weekday() # 0=Lun, 1=Mar, 2=Mer, 3=Gio, 4=Ven, 5=Sab, 6=Dom
+    h = dt.hour
+    m = dt.minute
+
+    # Sabato 20:45
+    if wd == 5 and h == 20 and m == 45:
+        return "Sky Sport / DAZN"
+    # Domenica 18:00
+    if wd == 6 and h == 18 and m == 0:
+        return "Sky Sport / DAZN"
+    # Lunedì 20:45
+    if wd == 0 and h == 20 and m == 45:
+        return "Sky Sport / DAZN"
+    # Venerdì 20:45
+    if wd == 4 and h == 20 and m == 45:
+        return "Sky Sport / DAZN"
+    # Mercoledì 20:45 (infrasettimanale slot Sky)
+    if wd == 2 and h == 20 and m == 45:
+        return "Sky Sport / DAZN"
+
+    return "Solo DAZN"
+
+def calcola_broadcaster_champions(utc_date_str, home, away):
+    """
+    Regole ufficiali Diritti TV UEFA Champions League in Italia:
+    - Tutte le partite del MARTEDÌ: 100% Sky Sport / NOW (MAI su Prime Video).
+    - Mercoledì: Amazon Prime Video ha la migliore partita delle italiane in ESCLUSIVA ASSOLUTA.
+    - Le altre partite del mercoledì vanno su Sky Sport / NOW.
+    """
+    if not utc_date_str:
+        return "Sky Sport / NOW"
+    try:
+        dt = datetime.fromisoformat(utc_date_str.replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/Rome'))
+        wd = dt.weekday() # 1 = Martedì, 2 = Mercoledì
+    except Exception:
+        return "Sky Sport / NOW"
+
+    # Martedì -> Sempre e solo Sky Sport / NOW
+    if wd == 1:
+        return "Sky Sport / NOW"
+
+    # Mercoledì -> Prime Video per le sfide di cartello dell'Inter
+    nomi = f"{home} {away}".lower()
+    if any(k in nomi for k in ["shakhtar", "stuttgart", "stoccarda", "dortmund"]):
+        return "Prime Video (Esclusiva)"
+
+    return "Sky Sport / NOW"
 
 def estrai_serie_a_inter(api_key):
     print("Recupero Serie A (Solo Inter)...")
@@ -98,6 +169,9 @@ def estrai_serie_a_inter(api_key):
                 utc_date = m.get('utcDate', '')
                 local_date = iso_utc_to_rome(utc_date)
                 
+                # Assegnazione broadcaster puntuale
+                broadcaster = calcola_broadcaster_serie_a(utc_date)
+
                 # Controllo eventuale punteggio
                 score = m.get('score', {}).get('fullTime', {})
                 h_score = score.get('home')
@@ -114,13 +188,12 @@ def estrai_serie_a_inter(api_key):
                     "competition": "Serie A",
                     "eventName": event_title,
                     "dateTime": local_date,
-                    "broadcaster": "DAZN / Sky",
+                    "broadcaster": broadcaster,
                     "status": status
                 })
         print(f"Estrattele da API: {len(eventi)} partite dell'Inter in Serie A.")
         return eventi
 
-    # Fallback su file Excel se l'API non risponde
     print("Uso fallback Excel per la Serie A...")
     return estrai_serie_a_da_excel()
 
@@ -154,7 +227,7 @@ def estrai_serie_a_da_excel():
                             "competition": "Serie A",
                             "eventName": f"Serie A: {partita_nome}",
                             "dateTime": f"{a}-{m}-{g}T15:00:00+02:00",
-                            "broadcaster": "DAZN / Sky",
+                            "broadcaster": "DAZN (In attesa orario Lega)",
                             "status": "TIMED"
                         })
     return eventi
@@ -173,6 +246,9 @@ def estrai_champions_league_inter(api_key):
             utc_date = m.get('utcDate', '')
             local_date = iso_utc_to_rome(utc_date)
 
+            # Assegnazione broadcaster puntuale (Sky vs Prime Video)
+            broadcaster = calcola_broadcaster_champions(utc_date, home, away)
+
             score = m.get('score', {}).get('fullTime', {})
             h_score = score.get('home')
             a_score = score.get('away')
@@ -188,7 +264,7 @@ def estrai_champions_league_inter(api_key):
                 "competition": "Champions League",
                 "eventName": event_title,
                 "dateTime": local_date,
-                "broadcaster": "Sky Sport / NOW / Prime Video",
+                "broadcaster": broadcaster,
                 "status": status
             })
     print(f"Estrattele da API: {len(eventi)} partite dell'Inter in Champions League.")
