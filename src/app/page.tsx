@@ -7,21 +7,22 @@ import localEvents from "@/data/calendario.json"; // RIPRISTINATO per avere gli 
 export default function Home() {
   // La base di partenza è il nostro file locale (Zero attesa, sempre online)
   const [eventsData, setEventsData] = useState<any[]>(localEvents);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Questo useEffect viene eseguito una volta sola quando l'app si avvia
   useEffect(() => {
     async function loadEvents() {
       try {
-        // Chiamiamo l'API interna che ora ci restituisce SOLO il calcio
-        // cache: 'no-store' obbliga il BROWSER a scaricare i dati freschi (ignora la cache locale)
         const res = await fetch('/api/events', { cache: 'no-store' });
         const apiData = await res.json();
-        // Uniamo i dati offline (F1) con i dati freschi di internet (Calcio)
-        setEventsData([...localEvents, ...apiData]);
+        if (Array.isArray(apiData) && apiData.length > 0) {
+          const map = new Map();
+          localEvents.forEach((ev: any) => map.set(ev.id, ev));
+          apiData.forEach((ev: any) => map.set(ev.id, ev));
+          setEventsData(Array.from(map.values()));
+        }
       } catch (error) {
-        console.error("Nessuna connessione internet. Mantengo i dati locali F1:", error);
-        // In caso di offline, eventsData rimarrà semplicemente uguale a localEvents.
+        console.error("Nessuna connessione internet. Mantengo i dati locali:", error);
       } finally {
         setIsLoading(false);
       }
@@ -38,43 +39,23 @@ export default function Home() {
   // NUOVO STATO: la memoria che conserva lo sport selezionato.
   const [selectedSport, setSelectedSport] = useState("Tutti");
 
-  // 2.5 FILTRO EVENTI PASSATI
-  const futureEventsData = eventsData.filter(event => {
-    const eventDate = event.dateTime.split('T')[0];
-    return eventDate >= todayStr;
-  });
+  // Estraiamo tutti gli sport unici disponibili per popolare la tendina da TUTTO il database
+  const uniqueSports = ["Tutti", ...new Set(eventsData.map(e => e.sport))];
 
-  // Estraiamo tutti gli sport unici disponibili per popolare la tendina
-  const uniqueSports = ["Tutti", ...new Set(futureEventsData.map(e => e.sport))];
-
-  // Filtriamo gli eventi futuri anche in base allo sport selezionato
+  // Filtriamo gli eventi in base allo sport selezionato (senza escludere il passato)
   const sportFilteredEvents = selectedSport === "Tutti" 
-    ? futureEventsData 
-    : futureEventsData.filter(e => e.sport === selectedSport);
+    ? eventsData 
+    : eventsData.filter(e => e.sport === selectedSport);
 
   // 3. Estraiamo dai dati filtrati per sport solo le date che hanno eventi, per i "Pallini" azzurri.
   const eventDatesWithEvents = sportFilteredEvents.map(event => event.dateTime.split('T')[0]);
   const uniqueEventDates = [...new Set(eventDatesWithEvents)];
 
-  // 4. IL FILTRO MAGICO: prendiamo gli eventi filtrati per sport e teniamo SOLO quelli della data selezionata.
+  // 4. Prendiamo gli eventi filtrati per sport e teniamo quelli della data selezionata (SENZA rimuovere quelli finiti)
   const now = new Date();
   
   const filteredEvents = sportFilteredEvents.filter(event => {
-    const isSameDate = event.dateTime.startsWith(selectedDate);
-    if (!isSameDate) return false;
-
-    // Se stiamo guardando la data di OGGI, rimuovi gli eventi passati da oltre 3 ore
-    if (selectedDate === todayStr) {
-      // Regola 1: Se l'API ci dice esplicitamente che è live (IN_PLAY o PAUSED), mostra sempre l'evento
-      if (event.status === "IN_PLAY" || event.status === "PAUSED") return true;
-      
-      // Regola 2: Altrimenti, usa una tolleranza di 3 ore dall'orario di inizio
-      const eventTime = new Date(event.dateTime);
-      const treOreFa = new Date(now.getTime() - (3 * 60 * 60 * 1000));
-      return eventTime >= treOreFa;
-    }
-    
-    return true;
+    return event.dateTime.startsWith(selectedDate);
   });
 
   // 5. Ordiniamo gli eventi filtrati in modo cronologico (dal mattino alla sera)
@@ -145,17 +126,28 @@ export default function Home() {
           ) : (
             // Caso B: Ci sono eventi, stampiamo le card!
             <div className="space-y-3">
-              {sortedFilteredEvents.map((event) => (
-                <EventCard 
-                  key={event.id}
-                  sport={event.sport}
-                  competition={event.competition}
-                  eventName={event.eventName}
-                  dateTime={event.dateTime}
-                  broadcaster={event.broadcaster}
-                  status={event.status}
-                />
-              ))}
+              {sortedFilteredEvents.map((event) => {
+                const eventTime = new Date(event.dateTime).getTime();
+                // Consideriamo terminato se lo status è esplicitamente FINISHED oppure se sono trascorse più di 2 ore e mezza dall'inizio
+                const isFinished = event.status === "FINISHED" || (
+                  event.status !== "IN_PLAY" &&
+                  event.status !== "PAUSED" &&
+                  (eventTime + (2.5 * 60 * 60 * 1000) < now.getTime())
+                );
+
+                return (
+                  <EventCard 
+                    key={event.id}
+                    sport={event.sport}
+                    competition={event.competition}
+                    eventName={event.eventName}
+                    dateTime={event.dateTime}
+                    broadcaster={event.broadcaster}
+                    status={event.status}
+                    isFinished={isFinished}
+                  />
+                );
+              })}
             </div>
           )}
         </div>
