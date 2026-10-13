@@ -1,88 +1,100 @@
-# Not Today 🏆
+# Not Today
 
-Applicazione web mobile-first pensata per consultare in un'unica interfaccia il calendario dei principali eventi sportivi. Sviluppata con Next.js, React e Tailwind CSS.
-
----
-
-## Sport Supportati 🏅
-
-* 🏎️ **Formula 1:** Prove libere, qualifiche, sprint e gare domenicali.
-* 🏍️ **MotoGP:** Gare sprint del sabato e gare domenicali.
-* ⚽ **Calcio:** Campionato di Serie A e UEFA Champions League (focus Inter).
-* ⛷️ **Sci Alpino:** Coppa del Mondo FIS maschile e femminile (Discesa, Super-G, Gigante e Slalom).
-* 🎾 **Tennis:** Tornei del Grande Slam, Masters 1000 e ATP Finals.
+A mobile-first web application designed to track and display schedules across multiple major sports in a single, unified view. Built with Next.js, React, and Tailwind CSS.
 
 ---
 
-## Caratteristiche Principali ✨
+## Supported Sports
 
-* **Guida TV Integrata:** Indicazione chiara dell'emittente televisiva o della piattaforma streaming per ogni evento (DAZN, Sky Sport, NOW, Amazon Prime Video, Rai Sport, Eurosport).
-* **Risultati e Storico Eventi:** Gli eventi conclusi non vengono rimossi dal calendario; rimangono consultabili con il punteggio finale e l'indicatore **Terminato**.
-* **Navigazione con Calendario:** Widget mensile interattivo per selezionare rapidamente le date d'interesse, con indicatori visivi per i giorni che contengono eventi in programma.
-* **Filtro per Sport:** Possibilità di isolare una singola disciplina o visualizzare il programma giornaliero completo.
-* **Architettura Offline-First:** L'applicazione si avvia istantaneamente leggendo un database locale pre-compilato (`calendario.json`), garantendo piena funzionalità anche in assenza di rete.
-* **Aggiornamento Risultati in Cloud:** Le partite di calcio vengono aggiornate automaticamente su Vercel tramite cache programmata (ISR ogni 2 ore), senza richiedere interventi manuali e nel pieno rispetto dei limiti delle API gratuite.
+* **Formula 1:** Practice sessions, qualifying, sprint races, and Sunday Grands Prix.
+* **MotoGP:** Saturday sprint races and Sunday main races.
+* **Football:** Serie A and UEFA Champions League schedules (Inter Milan focus).
+* **Alpine Skiing:** FIS Alpine Ski World Cup for Men and Women (Downhill, Super-G, Giant Slalom, and Slalom).
+* **Tennis:** Grand Slams, ATP Masters 1000, and the ATP Finals.
 
 ---
 
-## Struttura del Progetto 📁
+## Key Features
+
+* **Broadcaster Information:** Displays the specific TV channel or streaming platform for every event (DAZN, Sky Sport, NOW, Amazon Prime Video, Rai Sport, Eurosport).
+* **Event History & Final Scores:** Past events remain accessible rather than being hidden. Completed events include final scores and a clear status badge.
+* **Interactive Date Navigation:** A monthly calendar widget allows quick date selection, with visual markers on days containing scheduled events.
+* **Sport Filters:** Filter the daily agenda by sport or display all sports concurrently.
+* **Offline-First Architecture:** The core calendar is precompiled into a local JSON bundle (`calendario.json`), ensuring zero-latency startup and full offline reliability.
+* **Automated Cloud Refresh:** Football match results and final statuses update automatically on Vercel via Incremental Static Regeneration (2-hour cache window), avoiding rate-limit exhaustion on free-tier APIs.
+
+---
+
+## Repository Structure
 
 ```text
 ├── src/
 │   ├── app/
-│   │   ├── api/events/route.ts   # Endpoint per l'aggiornamento automatico dei punteggi
-│   │   ├── page.tsx              # Pagina principale con filtri e vista giornaliera
-│   │   └── globals.css           # Stili e variabili grafiche
+│   │   ├── api/events/route.ts   # Edge route with 2-hour ISR for football score updates
+│   │   ├── page.tsx              # Main application view with filters and event list
+│   │   └── globals.css           # Styling rules and design tokens
 │   ├── components/
-│   │   ├── EventCard.tsx         # Scheda del singolo evento sportivo
-│   │   └── CalendarWidget.tsx    # Calendario mensile interattivo
+│   │   ├── EventCard.tsx         # Event presentation component
+│   │   └── CalendarWidget.tsx    # Monthly calendar selector component
 │   └── data/
-│       └── calendario.json       # Database unificato di tutti gli eventi
+│       └── calendario.json       # Precompiled database containing all sport schedules
 └── scripts/
-    ├── calcio_bot.py             # Generazione calendario Serie A e Champions League
-    ├── sci_bot.py                # Generazione calendario Coppa del Mondo Sci Alpino
-    ├── f1_bot.py                 # Generazione calendario Formula 1
-    ├── motogp_bot.py             # Generazione calendario MotoGP
-    └── tennis_bot.py             # Generazione calendario ATP / Tennis
+    ├── calcio_bot.py             # Generates Serie A and Champions League schedules
+    ├── sci_bot.py                # Generates FIS Alpine Skiing World Cup schedules
+    ├── f1_bot.py                 # Generates Formula 1 season schedule
+    ├── motogp_bot.py             # Generates MotoGP sprint and race schedule
+    └── tennis_bot.py             # Generates ATP Tour and Grand Slam schedule
 ```
 
 ---
 
-## Sviluppo Locale 💻
+## Getting Started
 
-1. **Clona il repository:**
+### Prerequisites
+
+* Node.js 18.x or later
+* Python 3.10 or later (for running data generation scripts)
+
+### Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/GiacBraz/Not-Today.git
    cd Not-Today
    ```
 
-2. **Configura le variabili d'ambiente (opzionale per aggiornamenti live):**
-   Crea un file `.env.local` nella cartella principale:
+2. Configure environment variables (optional for live match score updates):
+   Create a `.env.local` file in the root directory:
    ```env
-   FOOTBALL_DATA_API_KEY=la_tua_chiave_api
+   FOOTBALL_DATA_API_KEY=your_api_key_here
    ```
 
-3. **Installa le dipendenze e avvia il server:**
+3. Install dependencies and start the development server:
    ```bash
    npm install
    npm run dev
    ```
-   L'applicazione sarà accessibile all'indirizzo `http://localhost:3000`.
-
-4. **Rigenerazione dei calendari (opzionale):**
-   Per aggiornare o ricalcolare gli eventi sportivi nel database locale, puoi eseguire singolarmente gli script Python:
-   ```bash
-   python scripts/calcio_bot.py
-   python scripts/sci_bot.py
-   python scripts/f1_bot.py
-   python scripts/motogp_bot.py
-   ```
+   Open `http://localhost:3000` in your browser.
 
 ---
 
-## Distribuzione (Deploy) 🚀
+## Data Management Scripts
 
-Il progetto è configurato per il rilascio continuo su [Vercel](https://vercel.com).
-* È sufficiente importare il repository GitHub nella dashboard di Vercel.
-* Nella sezione **Settings > Environment Variables**, aggiungi la variabile `FOOTBALL_DATA_API_KEY`.
-* Ogni nuovo commit o merge su `main` avvia automaticamente il rilascio della nuova versione.
+The application uses standalone Python scripts in the `scripts/` directory to scrape, parse, and normalize official sporting calendars into the unified `calendario.json` file.
+
+To regenerate specific sport schedules:
+```bash
+python scripts/calcio_bot.py
+python scripts/sci_bot.py
+python scripts/f1_bot.py
+python scripts/motogp_bot.py
+```
+
+---
+
+## Deployment
+
+The application is optimized for deployment on [Vercel](https://vercel.com):
+1. Import the repository in your Vercel dashboard.
+2. In **Settings > Environment Variables**, add `FOOTBALL_DATA_API_KEY`.
+3. Deploy. Production deployments automatically handle ISR caching and static page optimization.
