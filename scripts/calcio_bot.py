@@ -82,28 +82,36 @@ def iso_utc_to_rome(utc_str):
     except Exception:
         return utc_str
 
-def calcola_broadcaster_serie_a(utc_date_str):
+def is_placeholder_match(utc_date_str, status="TIMED"):
+    if not utc_date_str or status == "SCHEDULED":
+        return True
+    try:
+        dt_utc = datetime.fromisoformat(utc_date_str.replace('Z', '+00:00'))
+        if dt_utc.hour == 0 and dt_utc.minute == 0:
+            return True
+    except Exception:
+        pass
+    return False
+
+def calcola_broadcaster_serie_a(utc_date_str, status="TIMED"):
     """
     Regole ufficiali Bando Diritti TV Lega Serie A (2024-2029):
-    - DAZN trasmette TUTTE e 10 le partite a giornata (38 su 38 dell'Inter).
+    - DAZN trasmette tutte le 10 partite a giornata (38 su 38 dell'Inter).
     - Sky trasmette 3 partite in co-esclusiva negli slot prefissati:
       * Sabato 20:45
       * Domenica 18:00
       * Lunedì 20:45 (o Venerdì 20:45)
       * Turno infrasettimanale slot serale Sky
     - Tutti gli altri slot (sabato 15:00/18:00, domenica 12:30/15:00/20:45): Solo DAZN.
-    - Se l'orario è a mezzanotte (partite del 2027 ancora non anticipate): DAZN (In attesa orario Lega).
+    - Se l'orario non è ancora fissato dalla Lega: DAZN o Now.
     """
-    if not utc_date_str:
-        return "DAZN (In attesa orario Lega)"
+    if is_placeholder_match(utc_date_str, status):
+        return "DAZN o Now"
+
     try:
         dt = datetime.fromisoformat(utc_date_str.replace('Z', '+00:00')).astimezone(ZoneInfo('Europe/Rome'))
     except Exception:
-        return "DAZN"
-
-    # Se non c'è orario definito (placeholder 00:00)
-    if dt.hour == 0 and dt.minute == 0:
-        return "DAZN (In attesa orario Lega)"
+        return "DAZN o Now"
 
     wd = dt.weekday() # 0=Lun, 1=Mar, 2=Mer, 3=Gio, 4=Ven, 5=Sab, 6=Dom
     h = dt.hour
@@ -167,10 +175,16 @@ def estrai_serie_a_inter(api_key):
                 a_name = clean_team_name(away)
                 status = m.get('status', 'TIMED')
                 utc_date = m.get('utcDate', '')
-                local_date = iso_utc_to_rome(utc_date)
                 
-                # Assegnazione broadcaster puntuale
-                broadcaster = calcola_broadcaster_serie_a(utc_date)
+                is_placeholder = is_placeholder_match(utc_date, status)
+                if is_placeholder:
+                    date_part = utc_date.split('T')[0] if utc_date else "2027-01-01"
+                    local_date = f"{date_part}T15:00:00+01:00"
+                    status = "SCHEDULED"
+                    broadcaster = "DAZN o Now"
+                else:
+                    local_date = iso_utc_to_rome(utc_date)
+                    broadcaster = calcola_broadcaster_serie_a(utc_date, status)
 
                 # Controllo eventuale punteggio
                 score = m.get('score', {}).get('fullTime', {})
@@ -226,9 +240,9 @@ def estrai_serie_a_da_excel():
                             "sport": "Calcio",
                             "competition": "Serie A",
                             "eventName": f"Serie A: {partita_nome}",
-                            "dateTime": f"{a}-{m}-{g}T15:00:00+02:00",
-                            "broadcaster": "DAZN (In attesa orario Lega)",
-                            "status": "TIMED"
+                            "dateTime": f"{a}-{m}-{g}T15:00:00+01:00",
+                            "broadcaster": "DAZN o Now",
+                            "status": "SCHEDULED"
                         })
     return eventi
 

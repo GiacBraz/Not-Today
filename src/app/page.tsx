@@ -4,6 +4,17 @@ import EventCard from "@/components/EventCard";
 import CalendarWidget from "@/components/CalendarWidget";
 import localEvents from "@/data/calendario.json"; // RIPRISTINATO per avere gli sport base sempre offline
 
+// Funzione per normalizzare qualsiasi orario/timestamp al giorno effettivo italiano (fuso Europe/Rome)
+function getItalianDateString(dateTimeStr: string): string {
+  try {
+    const d = new Date(dateTimeStr);
+    if (isNaN(d.getTime())) return dateTimeStr.split('T')[0];
+    return d.toLocaleDateString('sv-SE', { timeZone: 'Europe/Rome' });
+  } catch {
+    return dateTimeStr.split('T')[0];
+  }
+}
+
 export default function Home() {
   // La base di partenza è il nostro file locale (Zero attesa, sempre online)
   const [eventsData, setEventsData] = useState<any[]>(localEvents);
@@ -29,9 +40,8 @@ export default function Home() {
     }
     loadEvents();
   }, []);
-  // 1. Definiamo la data di default all'apertura (Oggi) - Formato es. 2026-06-17
-  const today = new Date();
-  const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+  // 1. Definiamo la data di default all'apertura (Oggi nel fuso orario italiano)
+  const todayStr = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Rome' });
   
   // 2. Lo Stato: la memoria che conserva il giorno cliccato dall'utente.
   const [selectedDate, setSelectedDate] = useState(todayStr);
@@ -47,15 +57,15 @@ export default function Home() {
     ? eventsData 
     : eventsData.filter(e => e.sport === selectedSport);
 
-  // 3. Estraiamo dai dati filtrati per sport solo le date che hanno eventi, per i "Pallini" azzurri.
-  const eventDatesWithEvents = sportFilteredEvents.map(event => event.dateTime.split('T')[0]);
+  // 3. Estraiamo dai dati filtrati per sport solo le date che hanno eventi, normalizzate sul giorno italiano per i pallini
+  const eventDatesWithEvents = sportFilteredEvents.map(event => getItalianDateString(event.dateTime));
   const uniqueEventDates = [...new Set(eventDatesWithEvents)];
 
-  // 4. Prendiamo gli eventi filtrati per sport e teniamo quelli della data selezionata (SENZA rimuovere quelli finiti)
+  // 4. Prendiamo gli eventi filtrati per sport e teniamo quelli della data selezionata
   const now = new Date();
   
   const filteredEvents = sportFilteredEvents.filter(event => {
-    return event.dateTime.startsWith(selectedDate);
+    return getItalianDateString(event.dateTime) === selectedDate;
   });
 
   // 5. Ordiniamo gli eventi filtrati in modo cronologico (dal mattino alla sera)

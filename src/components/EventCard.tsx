@@ -49,6 +49,11 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
     emoji = "⛷️";
   }
 
+  // Controllo orario in attesa di definizione ufficiale
+  const isAwaitingSchedule = status === "SCHEDULED" || broadcaster.toLowerCase().includes("in attesa");
+  const displayTime = isAwaitingSchedule ? "In attesa orario Lega" : timeString;
+  const displayBroadcaster = broadcaster.replace(/\s*\(in attesa.*?\)/i, '').trim();
+
   // Qui sotto usiamo "className" per collegare i pezzetti di codice allo stile CSS che scriveremo dopo
   return (
     <div className={`card ${isFinished ? 'card-finished' : ''}`}>
@@ -94,7 +99,9 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
               LIVE
             </span>
           ) : null}
-          <span className="time">{timeString}</span>
+          <span className="time" style={isAwaitingSchedule ? { fontSize: '0.85rem', fontWeight: 600 } : undefined}>
+            {displayTime}
+          </span>
         </div>
       </div>
       <div className="card-body">
@@ -104,7 +111,7 @@ export default function EventCard({ sport, competition, eventName, dateTime, bro
       <div className="card-footer">
         {/* Giorno ed Emittente televisiva posizionati in basso */}
         <span className="date">{dateString}</span>
-        <span className="broadcaster">📺 {broadcaster}</span>
+        <span className="broadcaster">📺 {displayBroadcaster}</span>
       </div>
     </div>
   );
