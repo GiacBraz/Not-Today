@@ -1,66 +1,88 @@
 # Not Today 🏆
 
-A sleek, mobile-first web application designed to track and display a comprehensive schedule of multiple major sporting events in a single, unified view. Built with Next.js, React, and Tailwind CSS.
+Applicazione web mobile-first pensata per consultare in un'unica interfaccia il calendario dei principali eventi sportivi. Sviluppata con Next.js, React e Tailwind CSS.
 
-## Features ✨
+---
 
-*   **Multi-Sport Support:** Seamlessly integrates calendars for:
-    *   🏎️ **Formula 1** (2026 Season)
-    *   🏍️ **MotoGP** (2026 Season - Sprints & Races only)
-    *   ⚽ **Serie A** (2026/2027 Season - Inter Milan focus)
-    *   ⚽ **FIFA World Cup 2026** (With LIVE API Integration)
-    *   🎾 **Tennis** (ATP Grand Slams & Masters 1000)
-*   **Live Scores & Animations:** The FIFA World Cup section fetches real-time data to display live scores and a pulsating 🔴 LIVE badge for matches currently in play.
-*   **Mobile-First Design:** Optimized for smartphone screens with a clean, vertical layout, intuitive navigation, and modern aesthetics.
-*   **Timezone Auto-Correction:** All event times are automatically parsed and displayed in Central European Time (CET/CEST - Italy).
-*   **Smart Calendar Widget:** Interactive monthly calendar to jump to specific dates, with blue dots indicating days with scheduled events.
-*   **Past Event Filtering:** Automatically hides past events to keep the focus on upcoming action.
+## Sport Supportati 🏅
 
-## Tech Stack 🛠️
+* 🏎️ **Formula 1:** Prove libere, qualifiche, sprint e gare domenicali.
+* 🏍️ **MotoGP:** Gare sprint del sabato e gare domenicali.
+* ⚽ **Calcio:** Campionato di Serie A e UEFA Champions League (focus Inter).
+* ⛷️ **Sci Alpino:** Coppa del Mondo FIS maschile e femminile (Discesa, Super-G, Gigante e Slalom).
+* 🎾 **Tennis:** Tornei del Grande Slam, Masters 1000 e ATP Finals.
 
-*   **Frontend Framework:** [Next.js](https://nextjs.org/) (React App Router)
-*   **Styling:** Vanilla CSS + Tailwind CSS utilities
-*   **Live Data API:** [football-data.org](https://www.football-data.org/)
-*   **Offline Fallback:** Local JSON generated via Python data scrapers.
+---
 
-## Architecture & Data Pipeline ⚙️
+## Caratteristiche Principali ✨
 
-The application uses an advanced **Hybrid Architecture** combining static offline data with Incremental Static Regeneration (ISR) for live events.
+* **Guida TV Integrata:** Indicazione chiara dell'emittente televisiva o della piattaforma streaming per ogni evento (DAZN, Sky Sport, NOW, Amazon Prime Video, Rai Sport, Eurosport).
+* **Risultati e Storico Eventi:** Gli eventi conclusi non vengono rimossi dal calendario; rimangono consultabili con il punteggio finale e l'indicatore **Terminato**.
+* **Navigazione con Calendario:** Widget mensile interattivo per selezionare rapidamente le date d'interesse, con indicatori visivi per i giorni che contengono eventi in programma.
+* **Filtro per Sport:** Possibilità di isolare una singola disciplina o visualizzare il programma giornaliero completo.
+* **Architettura Offline-First:** L'applicazione si avvia istantaneamente leggendo un database locale pre-compilato (`calendario.json`), garantendo piena funzionalità anche in assenza di rete.
+* **Aggiornamento Risultati in Cloud:** Le partite di calcio vengono aggiornate automaticamente su Vercel tramite cache programmata (ISR ogni 2 ore), senza richiedere interventi manuali e nel pieno rispetto dei limiti delle API gratuite.
 
-### 1. Incremental Static Regeneration (ISR)
-The World Cup API route (`/api/events/route.ts`) is configured with `revalidate = 60`. 
-This allows the application to serve live match scores with lightning-fast Edge cache speeds. Vercel acts as a shield, caching the response globally and only pinging the football-data.org API once every 60 seconds (1 call/minute max) regardless of how many thousands of concurrent users are active. This ensures the app never hits the API rate limit (10 req/min).
+---
 
-### 2. Dual-Engine Fallback (Super-API)
-For the World Cup, the application relies on a solid "Database di Emergenza" (Fallback Database) containing exact schedules and official bracket labels (e.g., `W76 vs W78`). 
-When fetching from the live API:
-- It enriches the static matches with Live Status and Scores.
-- If the live API is unreachable or fails (e.g. missing API Key), the app elegantly falls back to the static schedule, ensuring 100% uptime.
+## Struttura del Progetto 📁
 
-### 3. Static Bots
-Other sports (F1, MotoGP, etc.) are compiled statically via Python bots that scrape and normalize `.ics`, `.xlsx`, and JSON files into a single `calendario.json` bundle.
+```text
+├── src/
+│   ├── app/
+│   │   ├── api/events/route.ts   # Endpoint per l'aggiornamento automatico dei punteggi
+│   │   ├── page.tsx              # Pagina principale con filtri e vista giornaliera
+│   │   └── globals.css           # Stili e variabili grafiche
+│   ├── components/
+│   │   ├── EventCard.tsx         # Scheda del singolo evento sportivo
+│   │   └── CalendarWidget.tsx    # Calendario mensile interattivo
+│   └── data/
+│       └── calendario.json       # Database unificato di tutti gli eventi
+└── scripts/
+    ├── calcio_bot.py             # Generazione calendario Serie A e Champions League
+    ├── sci_bot.py                # Generazione calendario Coppa del Mondo Sci Alpino
+    ├── f1_bot.py                 # Generazione calendario Formula 1
+    ├── motogp_bot.py             # Generazione calendario MotoGP
+    └── tennis_bot.py             # Generazione calendario ATP / Tennis
+```
 
-## Local Development 🚀
+---
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/GiacBraz/Not-Today.git
-    cd Not-Today
-    ```
-2.  **Environment Variables:**
-    Create a `.env.local` file in the root folder and add your football-data.org API key:
-    ```env
-    FOOTBALL_DATA_API_KEY=your_secret_key_here
-    ```
-3.  **Install dependencies & Run:**
-    ```bash
-    npm install
-    npm run dev
-    ```
+## Sviluppo Locale 💻
 
-## Deployment on Vercel 🌐
+1. **Clona il repository:**
+   ```bash
+   git clone https://github.com/GiacBraz/Not-Today.git
+   cd Not-Today
+   ```
 
-This project is highly optimized for deployment on [Vercel](https://vercel.com).
-1. Import the repository.
-2. In the Vercel dashboard, go to **Settings > Environment Variables** and add `FOOTBALL_DATA_API_KEY`.
-3. Deploy! The ISR architecture combined with Vercel's Edge Network guarantees enterprise-level scaling on a free Hobby tier.
+2. **Configura le variabili d'ambiente (opzionale per aggiornamenti live):**
+   Crea un file `.env.local` nella cartella principale:
+   ```env
+   FOOTBALL_DATA_API_KEY=la_tua_chiave_api
+   ```
+
+3. **Installa le dipendenze e avvia il server:**
+   ```bash
+   npm install
+   npm run dev
+   ```
+   L'applicazione sarà accessibile all'indirizzo `http://localhost:3000`.
+
+4. **Rigenerazione dei calendari (opzionale):**
+   Per aggiornare o ricalcolare gli eventi sportivi nel database locale, puoi eseguire singolarmente gli script Python:
+   ```bash
+   python scripts/calcio_bot.py
+   python scripts/sci_bot.py
+   python scripts/f1_bot.py
+   python scripts/motogp_bot.py
+   ```
+
+---
+
+## Distribuzione (Deploy) 🚀
+
+Il progetto è configurato per il rilascio continuo su [Vercel](https://vercel.com).
+* È sufficiente importare il repository GitHub nella dashboard di Vercel.
+* Nella sezione **Settings > Environment Variables**, aggiungi la variabile `FOOTBALL_DATA_API_KEY`.
+* Ogni nuovo commit o merge su `main` avvia automaticamente il rilascio della nuova versione.
